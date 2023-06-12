@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react"
 import RenderIfVisible from "react-render-if-visible"
 import { SparkChart } from "components/Charts"
-import GlobalHead from "components/GlobalHead"
-import GlobalHeader from "components/GlobalHeader"
 import { SourceIcons } from "components/SourceIcons"
 import { DictatedData, formattedDictatedService, IServiceMap, ServiceMap } from "../types/Types"
 
@@ -49,11 +47,18 @@ const formatSparkChartData = (item: formattedDictatedService) => {
   return [{ data: item.charts.current }, { isComparison: true, data: item.charts.previous }]
 }
 
-export default function About() {
+const timeout = (ms: number) => {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
+export default function Summary() {
   const [dictatedData, setDictatedData] = useState({} as DictatedData)
 
   useEffect(() => {
     async function fetchData() {
+      // contrive a delay to show loading state
+      await timeout(3000)
+      // get data from api
       const d = await fetch("/api/summary").then((res) => res.json())
       // @ts-ignore
       setDictatedData(groupData(d.metrics))
@@ -63,14 +68,13 @@ export default function About() {
   }, [])
 
   return (
-    <div className="p-2">
-      <GlobalHead />
-      <GlobalHeader />
+    <main className="p-4">
+      <h1 className="text-3xl font-bold">Summary</h1>
 
-      <main className="p-2">
-        <h1 className="text-3xl font-bold">Summary</h1>
-
-        {Object.keys(dictatedData).map((g: string) => {
+      {Object.keys(dictatedData).length <= 0 ? (
+        <p className="mt-10">loading...</p>
+      ) : (
+        Object.keys(dictatedData).map((g: string) => {
           const group = dictatedData[g as IServiceMap] as DictatedData[IServiceMap]
           const filteredGroup = group.filter((item) => item.values?.current !== 0 && item.delta)
           const plainTextService = ServiceMap[g as IServiceMap]
@@ -91,7 +95,7 @@ export default function About() {
                       (delta < 0 && item.positiveComparison < 0)
 
                     return delta ? (
-                      <div key={item.id} className="w-full rounded border p-4 sm:max-w-sm">
+                      <div key={item.id} className="w-full rounded border p-4">
                         <div className="mb-4">
                           <div className="flex justify-between">
                             <div>
@@ -122,8 +126,8 @@ export default function About() {
               </div>
             )
           )
-        })}
-      </main>
-    </div>
+        })
+      )}
+    </main>
   )
 }

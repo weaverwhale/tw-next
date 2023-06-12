@@ -1,13 +1,9 @@
 import { Button } from "components/Button/Button"
-import GlobalHead from "components/GlobalHead"
-import GlobalHeader from "components/GlobalHeader"
 import { LP_GRID_ITEMS } from "../lp-items"
 
 export default function Web() {
   return (
     <>
-      <GlobalHead />
-      <GlobalHeader />
       <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
