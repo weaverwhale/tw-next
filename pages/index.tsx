@@ -6,8 +6,8 @@ export default function About() {
   const [summaryData, setSummaryData] = useState({} as any)
 
   useEffect(() => {
-      async function fetchData() {
-      const d = await fetch('/api/summary').then(res => res.json())
+    async function fetchData() {
+      const d = await fetch("/api/summary").then((res) => res.json())
       console.log(d)
       setSummaryData(d)
     }
@@ -15,9 +15,11 @@ export default function About() {
     fetchData()
   }, [])
 
-  return <div>
-    <GlobalHead />
-    <GlobalHeader /> 
-    <h1>Summary</h1>
-  </div>
+  return (
+    <div>
+      <GlobalHead />
+      <GlobalHeader />
+      <h1>Summary</h1>
+    </div>
+  )
 }
