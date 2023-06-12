@@ -9,13 +9,15 @@ export default function GlobalLayout({ children }) {
     document.body.className = "sm:overflow-hidden"
   })
 
+  const storeName = "madisonbraids"
+
   return (
     <div className="bg-blue-700">
       <GlobalHead />
       <div className="h-full w-full sm:flex sm:overflow-hidden">
         <GlobalHeader />
         <main className="h-[100vh] w-full overflow-x-auto bg-white sm:mt-2 sm:rounded-t-md">{children}</main>
-        <GlobalRightRail />
+        <GlobalRightRail storeName={storeName} />
       </div>
     </div>
   )
