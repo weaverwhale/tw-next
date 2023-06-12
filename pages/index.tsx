@@ -4,7 +4,8 @@ import { SparkChart } from "components/Charts"
 import { SourceIcons } from "components/SourceIcons"
 import { DictatedData, formattedDictatedService, IServiceMap, ServiceMap } from "../types/Types"
 
-const timeToDelay = 3000
+// time to delay (simulate loading data from api)
+const timeToDelay = 1500
 
 // @ts-ignore
 const groupByKey = (list, key) =>
