@@ -1,25 +1,17 @@
 import { cva } from "class-variance-authority"
 import { twMerge } from "tailwind-merge"
 
-const headerButton = cva(
-  [
-    "justify-center",
-    "inline-flex",
-    "items-center",
-    "text-center",
-    "p-2"
-  ]
-)
+const headerButton = cva(["justify-center", "inline-flex", "items-center", "text-center", "p-2"])
 
 const navItems = [
   {
-    label: 'Home',
-    href: '/'
+    label: "Home",
+    href: "/",
   },
   {
-    label: 'About',
-    href: '/about'
-  }
+    label: "About",
+    href: "/about",
+  },
 ]
 
 export default function GlobalHeader() {
