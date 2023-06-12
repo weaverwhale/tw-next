@@ -98,7 +98,7 @@ export default function Summary() {
                       (delta < 0 && item.positiveComparison < 0)
 
                     return delta ? (
-                      <div key={item.id} className="w-full rounded border p-4">
+                      <div key={item.id} className="w-full rounded border p-4 shadow-md">
                         <div className="mb-4">
                           <div className="flex justify-between">
                             <div>
