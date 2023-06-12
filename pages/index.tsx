@@ -116,7 +116,7 @@ export default function Summary() {
                           <p className="my-2 text-xl font-black">{formatValue(item)}</p>
                         </div>
                         {item.charts?.current?.length > 0 && (
-                          <RenderIfVisible defaultHeight={60} stayRendered={true}>
+                          <RenderIfVisible defaultHeight={40} stayRendered={true}>
                             <SparkChart accessibilityLabel={""} data={formatSparkChartData(item)} />
                           </RenderIfVisible>
                         )}

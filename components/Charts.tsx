@@ -88,7 +88,7 @@ export const SparkChart: React.FC<{
 }> = (props: { data: sparkChartData; accessibilityLabel: string }) => {
   const { data, accessibilityLabel } = props
   return (
-    <div className="spark-wrapper min-h-[40px]">
+    <div className="spark-wrapper">
       <SparkLineChart theme="Light" accessibilityLabel={accessibilityLabel} data={data as any} />
     </div>
   )
