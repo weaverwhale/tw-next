@@ -18,7 +18,7 @@ const navItems = [
 
 export default function GlobalHeader() {
   return (
-    <header className="sticky bg-blue-700 text-white">
+    <header className="sticky top-0 bg-blue-700 text-white">
       <a href="/" className={`${sharedClass} inline-block align-middle sm:flex`}>
         <GiWhaleTail color="#fff" size={30} />
       </a>

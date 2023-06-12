@@ -16,7 +16,9 @@ export default function GlobalLayout({ children }) {
       <GlobalHead />
       <div className="h-full w-full sm:flex sm:overflow-hidden">
         <GlobalHeader />
-        <main className="h-[100vh] w-full overflow-x-auto bg-white sm:mt-2 sm:rounded-t-md">{children}</main>
+        <main className="w-full overflow-x-auto bg-white sm:mt-2 sm:h-[calc(100vh-0.5rem)] sm:rounded-t-md">
+          {children}
+        </main>
         <GlobalRightRail storeName={storeName} />
       </div>
     </div>
