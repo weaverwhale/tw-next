@@ -63,69 +63,67 @@ export default function About() {
   }, [])
 
   return (
-    <div>
+    <div className="p-2">
       <GlobalHead />
       <GlobalHeader />
-      <h1>Summary</h1>
 
-      {Object.keys(dictatedData).map((g: string) => {
-        const group = dictatedData[g as IServiceMap] as DictatedData[IServiceMap]
-        const filteredGroup = group.filter((item) => item.values?.current !== 0 && item.delta)
-        const plainTextService = ServiceMap[g as IServiceMap]
+      <main className="p-2">
+        <h1 className="text-3xl font-bold">Summary</h1>
 
-        return (
-          filteredGroup.length > 0 && (
-            <div key={g}>
-              <div className="flex capitalize">
-                <h3>
-                  <SourceIcons source={g as IServiceMap} /> {plainTextService}
-                </h3>
-              </div>
-              <br />
-              <div className="flex flex-wrap">
-                {group.map((item) => {
-                  const delta = toNumber(item.delta)
-                  const deltaIsPositive =
-                    (delta > 0 && (item.positiveComparison > 0 || !item.positiveComparison)) ||
-                    (delta < 0 && item.positiveComparison < 0)
+        {Object.keys(dictatedData).map((g: string) => {
+          const group = dictatedData[g as IServiceMap] as DictatedData[IServiceMap]
+          const filteredGroup = group.filter((item) => item.values?.current !== 0 && item.delta)
+          const plainTextService = ServiceMap[g as IServiceMap]
 
-                  return (
-                    item.values?.current !== 0 &&
-                    item.delta && (
-                      <div key={item.id}>
-                        <p>
-                          <span className="flex">
-                            <strong>
-                              {item.title}
-                              {/* {item.tip && (
-                                <Tooltip content={item.tip}>
-                                  <Icon source={QuestionMarkInverseMajor} color="subdued" />
-                                </Tooltip>
-                              )} */}
-                              <br />
-                            </strong>
-                          </span>
-                          <div className={deltaIsPositive ? "text-[green]" : "text-[red]"}>
-                            {delta === 0 ? "-" : delta > 0 ? "↑" : "↓"}
+          return (
+            filteredGroup.length > 0 && (
+              <div key={g} className="mt-4">
+                <div>
+                  <h3 className="mb-4 mt-10 flex items-center gap-2 text-xl capitalize">
+                    <SourceIcons source={g as IServiceMap} /> {plainTextService}
+                  </h3>
+                </div>
+                <div className="grid w-full flex-wrap items-stretch gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                  {group.map((item) => {
+                    const delta = toNumber(item.delta)
+                    const deltaIsPositive =
+                      (delta > 0 && (item.positiveComparison > 0 || !item.positiveComparison)) ||
+                      (delta < 0 && item.positiveComparison < 0)
+
+                    return delta ? (
+                      <div key={item.id} className="w-full rounded border p-4 sm:max-w-sm">
+                        <div className="mb-4">
+                          <div className="flex justify-between">
+                            <div>
+                              <strong>{item.title}</strong>
+                            </div>
+
+                            <div className="flex items-center gap-1">
+                              <div className={deltaIsPositive ? "text-[green]" : "text-[red]"}>
+                                {delta === 0 ? "-" : delta > 0 ? "↑" : "↓"}
+                              </div>
+                              <span>{formatNumber(item.delta)}%</span>
+                            </div>
                           </div>
-                          &nbsp;
-                          <span>{formatNumber(item.delta)}%</span>
-                        </p>
-                        <h1>{formatValue(item)}</h1>
+                          {item.tip && <p className="text-xs">{item.tip}</p>}
+                          <p className="my-2 text-xl font-black">{formatValue(item)}</p>
+                        </div>
                         {item.charts?.current?.length > 0 && (
                           <RenderIfVisible defaultHeight={60} stayRendered={true}>
-                            <SparkChart accessibilityLabel={plainTextService} data={formatSparkChartData(item)} />
+                            <SparkChart accessibilityLabel={""} data={formatSparkChartData(item)} />
                           </RenderIfVisible>
                         )}
                       </div>
+                    ) : (
+                      ""
                     )
-                  )
-                })}
+                  })}
+                </div>
               </div>
-            </div>
+            )
           )
-        )
-      })}
+        })}
+      </main>
     </div>
   )
 }
