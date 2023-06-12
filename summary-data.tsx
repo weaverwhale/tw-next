@@ -1,2392 +1,13499 @@
 export const summaryData = {
-  key: "2023-06-12T00:00:00-04:002023-06-12T23:59:59-04:00",
-  comparisons: [
+  metrics: [
     {
-      totalSales: 5.087931860355596,
-      newCustomerSales: 16.572140586061696,
-      netSales: 5.087931860355596,
-      rcRevenue: -1.7948305275694392,
-      totalPaymentGatewayCosts: 54.673149648838496,
-      totalProductCosts: 36.61535143296219,
-      totalHandlingFees: 0,
-      totalCustomSpends: 0,
-      totalInventoryItems: 0,
-      totalInventoryItemsMissing: 0,
-      totalInventoryCost: 0,
-      totalInventoryValue: 0,
-      shopifyAov: -8.048059622188855,
-      averageGaRevenuePerTransaction: -8.048059622188855,
-      fb_ads_spend: 22.96458561518801,
-      ga_adCost: 22.944005239174487,
-      googleAllCpa: 100,
-      googleBounceRate: -2.5944202002697865,
-      googleConversionValue: 100,
-      totalSnapchatSpend: 0,
-      totalSnapchatRoas: 0,
-      snapchatImpressions: 0,
-      snapchat_swipes: 0,
-      snapchatCpm: 0,
-      snapchatCpa: 0,
-      totalSnapchatConversionPurchasesValue: 0,
-      averageGaTransactionsPerSession: -4.349108064278328,
-      totalGoogleAnalyticsSessions: 19.482120838471022,
-      totalOrders: 14.285714285714286,
-      totalNetProfit: -43.186962835380236,
-      cashTurnover: -15.976390711874975,
-      totalNetMargin: -45.93761989710213,
-      totalCpa: 7.592961801156989,
-      totalRevenuePerSession: -12.047148876420657,
-      totalRefunds: 0,
-      fb_ads_purchase_roas: 97.62014471276626,
-      ga_ROAS: 100,
-      totalGoogleAdsCtr: 10.139480195261141,
-      totalGoogleAdsCpm: 23.531827924322663,
-      googleCpc: 12.159443376089003,
-      totalGoogleAdsClicks: 9.615384615384615,
-      totalGoogleAdsImpressions: -0.47584715212689255,
-      ga_transactions_adGroup: 100,
-      ga_all_transactionsRevenue_adGroup: 100,
-      ga_all_transactions_adGroup: 100,
-      totalAllRoas: 100,
-      googleCpa: 100,
-      averageFacebookCpc: -13.277608039814766,
-      facebookViewThrough: 0,
-      facebookViewThroughRoas: 0,
-      facebookViewThroughCpa: 0,
-      averageFacebookCpm: -6.827568655638538,
-      facebookCtr: 7.4375708953432405,
-      facebookCostPerOutboundClick: -6.3957527941122,
-      facebookConversionValue: 143.00279203818795,
-      facebookWebConversionValue: 143.00279203818795,
-      facebookMetaConversionValue: 0,
-      facebookRevenuePerClick: 84.98084878557093,
-      facebookCpa: -56.9623950346842,
-      facebookPurchases: 185.71428571428572,
-      facebookMetaPurchases: 0,
-      facebookWebPurchases: 185.71428571428572,
-      newCustomersCpa: -15.462672870519503,
-      totalKlaviyoPlacedOrderSalesPercent: 10.539316128134763,
-      totalKlaviyoPlacedOrderSalesPercentFlows: 10.539316128134763,
-      totalKlaviyoPlacedOrderSalesPercentCampaigns: 0,
-      klaviyoEmailOpenRate: 0,
-      totalKlaviyoUnsubscribed: 200,
-      totalKlaviyoPlacedOrderTotalPriceFlows: 16.163481211637315,
-      totalKlaviyoPlacedOrderTotalPriceCampaigns: 0,
-      totalKlaviyoSubscribedToList: 66.66666666666667,
-      totalKlaviyoClickedEmail: 30.76923076923077,
-      totalKlaviyoReceivedEmail: -12.318840579710145,
-      totalKlaviyoClickedSms: 0,
-      klaviyoCVR: 30.34238488783943,
-      klaviyoRevenuePerEmail: 19.85235203908323,
-      totalKlaviyoNetNewSubscribers: 40,
-      klaviyoPlacedOrderSales: 16.163481211637315,
-      attentivePlacedOrderSales: 0,
-      totalAttentivePlacedOrder: 0,
-      totalAttentiveNewSubscribed: 0,
-      totalAttentiveNetNewsubscribers: 0,
-      totalAttentiveUnsubscribed: 0,
-      totalAttentivePlacedOrderSalesPercent: 0,
-      totalAttentivePlacedOrderTotalPriceFlows: 0,
-      totalAttentivePlacedOrderSalesPercentFlows: 0,
-      totalAttentivePlacedOrderTotalPriceCampaigns: 0,
-      totalAttentivePlacedOrderSalesPercentCampaigns: 0,
-      tiktok_spend: 0,
-      tiktok_complete_payment_roas: 0,
-      tiktokImpressions: 0,
-      averageTiktokCpm: 0,
-      averageTiktokCpc: 0,
-      tiktokCtr: 0,
-      tiktokCpa: 0,
-      tiktokConversionValue: 0,
-      tiktokPurchases: 0,
-      uniqueCustomerLifetimeValue: 639.994186850004,
-      customerFrequency: 704.7619047619048,
-      ltvCpa: 587.7719271429579,
-      mer: 17.009996046935154,
-      totalReturns: 0,
-      totalTaxes: 20.435139573070593,
-      newCustomersPercent: 27.272727272727284,
-      oldCustomersPercent: -9.677419354838724,
-      newCustomersOrders: 45.45454545454545,
-      getUniqueCustomerCount: -85.79881656804734,
-      totalShippingCosts: 14.285714285714286,
-      totalGoogleAnalyticsUsers: 19.851116625310173,
-      totalGorgiasTicketsCreated: 0,
-      totalGorgiasTicketsReplied: 0,
-      averageGorgiasResponseTime: 0,
-      averageGorgiasResolutionTime: 0,
-      totalVariantsSold: 3.7974683544303796,
-      blendedAds: 22.96338491560799,
-      totalRoas: -14.855072463768106,
-      newCustomersRoas: -4.854368932038839,
-      blendedAttributedRoas: 108.06451612903226,
-      poas: -23.82706659117826,
-      shopifyCpa: 7.592961801156989,
-      pinterestSpend: 0,
-      pinterestRoas: 0,
-      pinterestCpc: 0,
-      pinterestCpm: 0,
-      pinterestConversionValue: 0,
-      pinterestPurchases: 0,
-      pinterestImpressions: 0,
-      pinterestCtr: 0,
-      totalBenchmarksCPM: 0,
-      totalBenchmarksCPC: 0,
-      totalBenchmarksCTR: 0,
-      totalBenchmarksNCROAS: 0,
-      totalBenchmarksNCPA: 0,
-      totalBenchmarksBlendedROAS: 0,
-      totalBenchmarksTotalSpendAvg: 0,
-      totalBenchmarksNewCustomersAvg: 0,
-      totalBenchmarksSize: 0,
-      totalBenchmarksOrdersAvg: 0,
-      totalBenchmarksNewCustomersTotalPriceAvg: 0,
-      totalBenchmarksTotalPriceUSDAvg: 0,
-      totalBenchmarksFBAdsSpendAvg: 0,
-      totalBenchmarksFBAdsImpressionsAvg: 0,
-      totalBenchmarksFBAdsClicksAvg: 0,
-      benchmarksFacebookRoas: 0,
-      benchmarksGoogleRoas: 0,
-      totalBenchmarksCPCGoogle: 0,
-      totalBenchmarksCPMGoogle: 0,
-      totalBenchmarksCTRGoogle: 0,
-      sources: {},
-      totalFacebookEnq: 0,
-      totalGoogleEnq: 0,
-      totalSnapchatEnq: 0,
-      totalTiktokEnq: 0,
-      totalPinterestEnq: 0,
-      totalInstagramEnq: 0,
-      responsesPrecent: 0,
-      totalFacebookKno: -9.999999999999988,
-      totalGoogleKno: -100,
-      totalSnapchatKno: 100,
-      totalTiktokKno: 100,
-      totalPinterestKno: 0,
-      totalInstagramKno: -39.99999999999999,
-      responsesPrecentKno: 45.83333333333336,
-      rechargeNewSub: 0,
-      rechargeTotalNewSubscriptions: 0,
-      rechargeCanceledSub: 0,
-      rechargeExpiredSub: 0,
-      rechargeTotalActiveSubsribers: 0,
-      rechargeTotalNetSales: 0,
-      rechargeItemsCount: 0,
-      rechargeTransactionCount: 0,
-      rechargeChurnRate: 0,
-      rechargeMRR: 0,
-      rechargeTotalActiveCustomers: 0,
-      rechargeTotalChurnedCustomers: 0,
-      facebookLikes: 0,
-      facebookComments: 0,
-      facebookShares: 0,
-      facebookPosts: 0,
-      facebookFollowers: 0,
-      facebookSocialImpressions: 0,
-      facebookSocialAvg: 0,
-      facebookReach: 0,
-      facebookProfileView: 0,
-      facebookWebsiteClicks: 0,
-      instagramLikes: 0,
-      instagramComments: 0,
-      instagramShares: 0,
-      instagramPosts: 0,
-      instagramFollowers: 0,
-      instagramImpressions: 0,
-      instagramAvg: 0,
-      instagramAvgImpressionsFollowers: 0,
-      instagramReach: 0,
-      instagramProfileView: 0,
-      instagramWebsiteClicks: 0,
-      influencerConversionValue: -100,
-      influencerSpend: 0,
-      influencerRoas: 0,
-      influencerPurchases: -100,
-      influencerNcPurchases: 0,
-      influencerNcConversionValue: 0,
-      totalCustomAdSpends: 0,
-      totalAmazonSales: 0,
-      totalAmazonProductItemPrice: 0,
-      totalAmazonSalesTaxes: 0,
-      totalAmazonOrders: 0,
-      totalAmazonItems: 0,
-      totalAmazonFees: 0,
-      totalAmazonSalesAFN: 0,
-      totalAmazonProductItemPriceAFN: 0,
-      totalAmazonSalesTaxesAFN: 0,
-      totalAmazonOrdersAFN: 0,
-      totalAmazonItemsAFN: 0,
-      totalAmazonFeesAFN: 0,
-      totalAmazonSalesMFN: 0,
-      totalAmazonProductItemPriceMFN: 0,
-      totalAmazonSalesTaxesMFN: 0,
-      totalAmazonOrdersMFN: 0,
-      totalAmazonItemsMFN: 0,
-      totalAmazonFeesMFN: 0,
-      totalCanceledAmazonSales: 0,
-      totalCanceledAmazonProductItemPrice: 0,
-      totalCanceledAmazonSalesTaxes: 0,
-      totalCanceledAmazonOrders: 0,
-      totalCanceledAmazonItems: 0,
-      totalCanceledAmazonFees: 0,
-      totalCanceledAmazonSalesAFN: 0,
-      totalCanceledAmazonProductItemPriceAFN: 0,
-      totalCanceledAmazonSalesTaxesAFN: 0,
-      totalCanceledAmazonOrdersAFN: 0,
-      totalCanceledAmazonItemsAFN: 0,
-      totalCanceledAmazonFeesAFN: 0,
-      totalCanceledAmazonSalesMFN: 0,
-      totalCanceledAmazonProductItemPriceMFN: 0,
-      totalCanceledAmazonSalesTaxesMFN: 0,
-      totalCanceledAmazonOrdersMFN: 0,
-      totalCanceledAmazonItemsMFN: 0,
-      totalCanceledAmazonFeesMFN: 0,
-      amazonAds: 0,
-      amazonROAS: 0,
-      amazonCPC: 0,
-      amazonClicks: 0,
-      amazonPurchases: 0,
-      amazonTACos: 0,
-      amazonAdsConversionValue: 0,
-      amazonNetSales: 0,
-      amazonNetProfit: 0,
-      amazonMER: 0,
-      amazonAOV: 0,
-      amazonCPA: 0,
-      amazonExpenses: 0,
-      blendedSales: 5.087931860355596,
-      pixelPurchases: 0,
-      pixelUniqueAtc: 0,
-      pixelUniqueVisitors: 0,
-      pixelConversionRate: 0,
-      twitter_spend: 0,
-      twitterRoas: 0,
-      twitterImpressions: 0,
-      twitterCpm: 0,
-      twitterCpa: 0,
-      twitterPurchases: 0,
-      twitterConversionValue: 0,
-      twitterEngagements: 0,
-      twitterFollows: 0,
-      twitterClicks: 0,
-      bingAdSpend: 0,
-      bingImpressions: 0,
-      bingClicks: 0,
-      bingRoas: 0,
-      bingConversions: 0,
-      bingConversionValue: 0,
-      bingCtr: 0,
-      bingCpm: 0,
-      bingCpa: 0,
-      cashTotal: 0,
-      creditTotal: 0,
-      moneyInSum: 0,
-      moneyOutSum: 0,
-      beginningCash: 0,
-      endingCash: 0,
-      totalChange: 0,
-      invoicesTotal: 0,
-      invoices30Total: 0,
-      invoices60Total: 0,
-      invoices90Total: 0,
-      ebitda: 0,
-      burnRate: 0,
-      runway: 0,
-      valuation: 0,
-      salesPerDay: 5.087931860355596,
-      invoicesTotalNegative: 0,
-      order_tags: {},
-      customMetrics: {
-        "6L38bwHBRvWKGMklbEpT": -14.537216153833628,
-        I41lKG4ACkBr3f3ST4N2: 10.251658626982215,
-        OPRT7ak1z1YyzrgPSWWx: -11.082238257176662,
-        QhG75Cv0JLXxCZIkW3SM: 8.761338945099697,
-        X7ANuQQK846E0PqFxxFe: -38.92577136225481,
-        XDlpY3ObEXkBNtESCGTZ: 19.53843250384192,
-        j9lMsp6olUZohex2yXKt: 22.96338491560799,
-        nmNtVOCg6TvqSGhrUoOi: 15.608267694051374,
-        ttwm1nDHQ4iluWhgah0m: -19.566426614669055,
-        uBcU247PLBecmLdSUV4w: -8.048059622188855,
-        uauOrxRIDEQBBJJkFHrW: 0,
+      id: "sales",
+      title: "Sales",
+      metricId: "totalSales",
+      tip: "Sales = Gross Sales - Discounts + Taxes + Shipping",
+      services: ["shopify"],
+      type: "currency",
+      delta: -62,
+      values: {
+        current: 473.09000000000003,
+        previous: 1259.42,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 473.09000000000003,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 786.33,
+          },
+          {
+            x: 162,
+            y: 473.09000000000003,
+          },
+        ],
+      },
+    },
+    {
+      id: "newCustomerSales",
+      title: "New Customer Revenue",
+      metricId: "newCustomerSales",
+      tip: "Amount of sales derived from new customers",
+      services: ["shopify"],
+      type: "currency",
+      delta: -52,
+      values: {
+        current: 222.67000000000002,
+        previous: 464.08000000000004,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 222.67000000000002,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 241.41,
+          },
+          {
+            x: 162,
+            y: 222.67000000000002,
+          },
+        ],
+      },
+    },
+    {
+      id: "netSales",
+      title: "Net Sales",
+      metricId: "netSales",
+      tip: "Sales - Refunds",
+      services: ["shopify"],
+      type: "currency",
+      delta: -62,
+      values: {
+        current: 473.09000000000003,
+        previous: 1259.42,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 473.09000000000003,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 786.33,
+          },
+          {
+            x: 162,
+            y: 473.09000000000003,
+          },
+        ],
+      },
+    },
+    {
+      id: "rcRevenue",
+      title: "Returning Customer Revenue",
+      metricId: "rcRevenue",
+      tip: "Amount of sales derived from returning customers",
+      services: ["shopify"],
+      type: "currency",
+      delta: -68,
+      values: {
+        current: 250.42000000000002,
+        previous: 795.34,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 250.42000000000002,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 544.9200000000001,
+          },
+          {
+            x: 162,
+            y: 250.42000000000002,
+          },
+        ],
+      },
+    },
+    {
+      id: "paymentGateways",
+      title: "Payment Gateways",
+      metricId: "totalPaymentGatewayCosts",
+      tip: "Payment processing fees. Edit these in: Store > Gateway Costs",
+      services: ["shopify"],
+      type: "currency",
+      delta: -62,
+      values: {
+        current: 14.27,
+        previous: 38.05,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 14.27,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 23.779999999999998,
+          },
+          {
+            x: 162,
+            y: 14.27,
+          },
+        ],
+      },
+    },
+    {
+      id: "cogs",
+      title: "COGS",
+      metricId: "totalProductCosts",
+      tip: "Cost of goods sold. Imported from Shopify, or edit these in: Store > Cost of Goods",
+      services: ["shopify"],
+      type: "currency",
+      delta: -78,
+      values: {
+        current: 27.16,
+        previous: 126.94999999999999,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 27.16,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 99.78999999999999,
+          },
+          {
+            x: 162,
+            y: 27.16,
+          },
+        ],
+      },
+    },
+    {
+      id: "handlingFees",
+      title: "Handling Fees",
+      metricId: "totalHandlingFees",
+      tip: "Cost of boxing, packaging, or “pick & pack” services. Edit these in: Store > Cost of Goods",
+      services: ["shopify"],
+      type: "currency",
+      delta: -72,
+      values: {
+        current: 56,
+        previous: 203,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 18,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 58.5,
+          },
+          {
+            x: 162,
+            y: 18,
+          },
+        ],
+      },
+    },
+    {
+      id: "customSpends",
+      title: "Custom Expenses",
+      metricId: "totalCustomSpends",
+      tip: "Any additional expenses you'd like to see deducted from your Net Profit. Edit these in: Store > Custom Expenses",
+      services: ["shopify"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 706.6763333333333,
+        previous: 705.2688333333333,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 706.6763333333333,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 705.2688333333333,
+          },
+        ],
+      },
+    },
+    {
+      id: "inventoryItems",
+      title: "Items",
+      metricId: "totalInventoryItems",
+      tip: "Number of total items you have in stock",
+      services: ["shopify"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 625588,
+        previous: 625588,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "inventoryItemsMissing",
+      title: "Missing Items",
+      metricId: "totalInventoryItemsMissing",
+      tip: "Number of back order items",
+      services: ["shopify"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 147,
+        previous: 147,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalInventoryCost",
+      title: "Cost",
+      metricId: "totalInventoryCost",
+      tip: "How much did the items cost",
+      services: ["shopify"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 144649.27000000002,
+        previous: 144649.27000000002,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalInventoryValue",
+      title: "Value",
+      metricId: "totalInventoryValue",
+      tip: "Retail value of items in stock",
+      services: ["shopify"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 794724.76,
+        previous: 794724.76,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "shopifyAov",
+      title: "AOV",
+      metricId: "shopifyAov",
+      tip: "Average Order Value. Sales / Orders>$0",
+      services: ["shopify"],
+      type: "currency",
+      delta: -1,
+      values: {
+        current: 59.136250000000004,
+        previous: 59.97238095238096,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 59.136250000000004,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 37.44428571428572,
+          },
+          {
+            x: 162,
+            y: 59.136250000000004,
+          },
+        ],
+      },
+    },
+    {
+      id: "aov",
+      title: "AOV",
+      metricId: "averageGaRevenuePerTransaction",
+      tip: "Average Order Value",
+      services: ["GOOGLE_ANALYTICS"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookAds",
+      title: "Facebook Ads",
+      metricId: "fb_ads_spend",
+      tip: "Ad spend",
+      services: ["facebook-ads"],
+      type: "currency",
+      delta: -39,
+      values: {
+        current: 304.15000000000003,
+        previous: 501.57000000000005,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 264.86,
+          },
+          {
+            x: 163,
+            y: 39.29,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 236.71,
+          },
+          {
+            x: 162,
+            y: 264.86,
+          },
+        ],
+      },
+    },
+    {
+      id: "googleAds",
+      title: "Google Ads",
+      metricId: "ga_adCost",
+      tip: "Google Ad Spend",
+      services: ["OLD_GOOGLE_ADS", "google-ads"],
+      type: "currency",
+      delta: -33,
+      values: {
+        current: 50.492042,
+        previous: 75.425815,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 48.844338,
+          },
+          {
+            x: 163,
+            y: 1.647704,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 26.581477,
+          },
+          {
+            x: 162,
+            y: 48.844338,
+          },
+        ],
+      },
+    },
+    {
+      id: "googleAllCpa",
+      title: "Google CPA",
+      metricId: "googleAllCpa",
+      tip: "Cost Per Acquisition",
+      services: ["OLD_GOOGLE_ADS", "google-ads"],
+      type: "currency",
+      delta: 73,
+      values: {
+        current: 20.178373766377533,
+        previous: 11.599893729665803,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0.05122978634698662,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0.150480727613443,
+          },
+          {
+            x: 162,
+            y: 0.05122978634698662,
+          },
+        ],
+      },
+    },
+    {
+      id: "googleBounceRate",
+      title: "Bounce Rate",
+      metricId: "googleBounceRate",
+      tip: "Percentage of visitors to the website that leave before any action or visiting other pages",
+      services: ["GOOGLE_ANALYTICS"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "googleConversionValue",
+      title: "Google Conversion Value",
+      metricId: "googleConversionValue",
+      tip: "Recorded revenue from Google Ads",
+      services: ["OLD_GOOGLE_ADS", "google-ads"],
+      type: "currency",
+      delta: -64,
+      values: {
+        current: 168.16189430000003,
+        previous: 479.5018943,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 168.16189430000003,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 311.34,
+          },
+          {
+            x: 162,
+            y: 168.16189430000003,
+          },
+        ],
+      },
+    },
+    {
+      id: "snapchatAds",
+      title: "Snapchat Ads",
+      metricId: "totalSnapchatSpend",
+      tip: "Snapchat Ad Spend",
+      services: ["snapchat-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "snapchatRoas",
+      title: "Snapchat ROAS",
+      metricId: "totalSnapchatRoas",
+      tip: "Return on Ad Spend",
+      services: ["snapchat-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "snapchatImpressions",
+      title: "Snapchat Impressions",
+      metricId: "snapchatImpressions",
+      services: ["snapchat-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "snapchatSwipes",
+      title: "Snapchat Swipes",
+      metricId: "snapchat_swipes",
+      services: ["snapchat-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "snapchatCpm",
+      title: "Snapchat CPM",
+      metricId: "snapchatCpm",
+      tip: "Cost Per 1000 Impressions",
+      services: ["snapchat-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "snapchatCpa",
+      title: "Snapchat CPA",
+      metricId: "snapchatCpa",
+      tip: "Cost Per Acquisition",
+      services: ["snapchat-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "snapchatConversionValue",
+      title: "Snapchat Conversion Value",
+      metricId: "totalSnapchatConversionPurchasesValue",
+      services: ["snapchat-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "googleConversionRate",
+      title: "Conversion Rate",
+      metricId: "averageGaTransactionsPerSession",
+      tip: "Google Analytics reported conversion rate",
+      services: ["GOOGLE_ANALYTICS"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "googleSessions",
+      title: "Sessions",
+      metricId: "totalGoogleAnalyticsSessions",
+      services: ["GOOGLE_ANALYTICS"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "shopifyOrders",
+      title: "Shopify Orders",
+      metricId: "totalOrders",
+      services: ["shopify"],
+      type: "decimal",
+      delta: -72,
+      values: {
+        current: 8,
+        previous: 29,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 8,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 21,
+          },
+          {
+            x: 162,
+            y: 8,
+          },
+        ],
+      },
+    },
+    {
+      id: "totalNetProfit",
+      title: "Net Profit",
+      metricId: "totalNetProfit",
+      tip: "Sales - Returns - Expenses (COGS, Shipping, Handling, Payment Gateways, Taxes, Custom Expenses) - Blended Ad Spend",
+      services: ["triple-whale"],
+      type: "currency",
+      delta: -48,
+      values: {
+        current: -711.6583753333333,
+        previous: -479.0646483333331,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: -632.7206713333333,
+          },
+          {
+            x: 163,
+            y: -40.937704,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: -426.5203103333332,
+          },
+          {
+            x: 162,
+            y: 73.95566200000003,
+          },
+        ],
+      },
+    },
+    {
+      id: "cashTurnover",
+      title: "Cash Turnover",
+      metricId: "cashTurnover",
+      tip: "Sales - Shipping - Taxes - Blended Ad Spend - Returns",
+      services: ["triple-whale"],
+      type: "currency",
+      delta: -321,
+      values: {
+        current: -628.4983753333333,
+        previous: -149.11464833333312,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalNetMargin",
+      title: "Net Margin",
+      metricId: "totalNetMargin",
+      tip: "Net Profit / Sales x 100. In other words: Percentage of Sales that is Net Profit. Answers the question of: “What percentage of my [Sales] is my [Net Profit]?”",
+      services: ["triple-whale"],
+      type: "percent",
+      delta: -295,
+      values: {
+        current: -150.4276935325907,
+        previous: -38.038513627966296,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalCpa",
+      title: "Blended CPA",
+      metricId: "totalCpa",
+      tip: "Cost Per Acquisition. Ad Spend/Google Analytics Transaction",
+      services: ["shopify", "facebook-ads", "google-ads", "snapchat-ads", "tiktok-ads", "pinterest-ads", "bing"],
+      type: "currency",
+      delta: 61,
+      values: {
+        current: 44.33025525000001,
+        previous: 27.47599119047619,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 39.21304225,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 161,
+            y: 20.25319053846154,
+          },
+          {
+            x: 162,
+            y: 39.21304225,
+          },
+        ],
+      },
+    },
+    {
+      id: "googleRps",
+      title: "RPS",
+      metricId: "totalRevenuePerSession",
+      tip: "Revenue Per Session. Sales / Web Sessions",
+      services: ["shopify"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalRefunds",
+      title: "Refunds",
+      metricId: "totalRefunds",
+      tip: "The amount refunded during the selected timeframe",
+      services: ["shopify"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookRoas",
+      title: "Facebook ROAS",
+      metricId: "fb_ads_purchase_roas",
+      tip: "Return on Ad Spend",
+      services: ["facebook-ads"],
+      type: "decimal",
+      delta: -49,
+      values: {
+        current: 0.5243136610225217,
+        previous: 1.0434435871363916,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0.48316091520048327,
+          },
+          {
+            x: 163,
+            y: 0.8017307202850599,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 1.6703561319758353,
+          },
+          {
+            x: 162,
+            y: 0.48316091520048327,
+          },
+        ],
+      },
+    },
+    {
+      id: "googleRoas",
+      title: "Google ROAS",
+      metricId: "ga_ROAS",
+      tip: "Return on Ad Spend",
+      services: ["OLD_GOOGLE_ADS", "google-ads"],
+      type: "decimal",
+      delta: -47,
+      values: {
+        current: 3.3304633292509744,
+        previous: 6.357265006682394,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 3.4428124361108146,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 11.712667433792335,
+          },
+          {
+            x: 162,
+            y: 3.4428124361108146,
+          },
+        ],
+      },
+    },
+    {
+      id: "totalGoogleAdsCtr",
+      title: "Google CTR",
+      metricId: "totalGoogleAdsCtr",
+      tip: "Click Through Rate. Percentage of people clicking the ad",
+      services: ["google-ads"],
+      type: "decimal",
+      delta: 12,
+      values: {
+        current: 1.2952210808396605,
+        previous: 1.155137676292814,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 1.2098765432098766,
+          },
+          {
+            x: 163,
+            y: 2.102803738317757,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 1.0898379970544918,
+          },
+          {
+            x: 162,
+            y: 1.2098765432098766,
+          },
+        ],
+      },
+    },
+    {
+      id: "totalGoogleAdsCpm",
+      title: "Google CPM",
+      metricId: "totalGoogleAdsCpm",
+      tip: "Cost Per 1000 Impressions",
+      services: ["google-ads"],
+      type: "decimal",
+      delta: 11,
+      values: {
+        current: 11.275578829834748,
+        previous: 10.131069845533915,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 12.060330370370371,
+          },
+          {
+            x: 163,
+            y: 3.8497757009345794,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 7.829595581737849,
+          },
+          {
+            x: 162,
+            y: 12.060330370370371,
+          },
+        ],
+      },
+    },
+    {
+      id: "googleCpc",
+      title: "Google CPC",
+      metricId: "googleCpc",
+      tip: "Cost Per Click",
+      services: ["google-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0.870552448275862,
+        previous: 0.8770443604651162,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalGoogleAdsClicks",
+      title: "Google Clicks",
+      metricId: "totalGoogleAdsClicks",
+      services: ["google-ads"],
+      type: "decimal",
+      delta: -32,
+      values: {
+        current: 58,
+        previous: 86,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 49,
+          },
+          {
+            x: 163,
+            y: 9,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 37,
+          },
+          {
+            x: 162,
+            y: 49,
+          },
+        ],
+      },
+    },
+    {
+      id: "totalGoogleAdsImpressions",
+      title: "Google Impressions",
+      metricId: "totalGoogleAdsImpressions",
+      services: ["google-ads"],
+      type: "decimal",
+      delta: -39,
+      values: {
+        current: 4478,
+        previous: 7445,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 4050,
+          },
+          {
+            x: 163,
+            y: 428,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 3395,
+          },
+          {
+            x: 162,
+            y: 4050,
+          },
+        ],
+      },
+    },
+    {
+      id: "ga_transactions_adGroup",
+      title: "Google All Conversions",
+      metricId: "ga_transactions_adGroup",
+      services: ["google-ads"],
+      type: "decimal",
+      delta: -58,
+      values: {
+        current: 15.586169000000002,
+        previous: 37.586169,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 15.586169000000002,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 22,
+          },
+          {
+            x: 162,
+            y: 15.586169000000002,
+          },
+        ],
+      },
+    },
+    {
+      id: "ga_all_transactionsRevenue_adGroup",
+      title: "Google All Conversions Value",
+      metricId: "ga_all_transactionsRevenue_adGroup",
+      services: ["google-ads"],
+      type: "decimal",
+      delta: -59,
+      values: {
+        current: 618.1557783,
+        previous: 1512.3957783,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 618.1557783,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 894.24,
+          },
+          {
+            x: 162,
+            y: 618.1557783,
+          },
+        ],
+      },
+    },
+    {
+      id: "ga_all_transactions_adGroup",
+      title: "Google Conversions",
+      metricId: "ga_all_transactions_adGroup",
+      services: ["google-ads"],
+      type: "decimal",
+      delta: -61,
+      values: {
+        current: 2.5022849999999996,
+        previous: 6.502285,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalAllRoas",
+      title: "Google All Roas",
+      metricId: "totalAllRoas",
+      services: ["google-ads"],
+      type: "decimal",
+      delta: -38,
+      values: {
+        current: 12.24263772695111,
+        previous: 20.051434357056667,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 12.655628136468959,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 33.64147146526132,
+          },
+          {
+            x: 162,
+            y: 12.655628136468959,
+          },
+        ],
+      },
+    },
+    {
+      id: "googleCpa",
+      title: "Google All CPA",
+      metricId: "googleCpa",
+      tip: "Cost Per All Conversions",
+      services: ["google-ads"],
+      type: "currency",
+      delta: 61,
+      values: {
+        current: 3.2395415448145077,
+        previous: 2.0067438902858123,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0.31909878684403503,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0.8276440018739365,
+          },
+          {
+            x: 162,
+            y: 0.31909878684403503,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookCpc",
+      title: "Facebook CPC",
+      metricId: "averageFacebookCpc",
+      tip: "Cost Per Click",
+      services: ["facebook-ads"],
+      type: "currency",
+      delta: -2,
+      values: {
+        current: 0.6526824034334765,
+        previous: 0.6669813829787234,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0.6572208436724566,
+          },
+          {
+            x: 163,
+            y: 0.6236507936507937,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0.6782521489971347,
+          },
+          {
+            x: 162,
+            y: 0.6572208436724566,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookViewThrough",
+      title: "Facebook View Conversion Value",
+      metricId: "facebookViewThrough",
+      tip: "Facebook View Conversion Value",
+      services: ["facebook-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookViewThroughRoas",
+      title: "Facebook View ROAS",
+      metricId: "facebookViewThroughRoas",
+      tip: "Facebook View Return on Ad Spend",
+      services: ["facebook-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookViewThroughCpa",
+      title: "Facebook View CPA",
+      metricId: "facebookViewThroughCpa",
+      tip: "Facebook View Cost Per Acquisition",
+      services: ["facebook-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "facebookCpm",
+      title: "Facebook CPM",
+      metricId: "averageFacebookCpm",
+      tip: "Cost Per 1000 Impressions",
+      services: ["facebook-ads"],
+      type: "currency",
+      delta: -3,
+      values: {
+        current: 27.622377622377627,
+        previous: 28.51287590245012,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 27.935871743486974,
+          },
+          {
+            x: 163,
+            y: 25.679738562091504,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 29.18742293464858,
+          },
+          {
+            x: 162,
+            y: 27.935871743486974,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookCtr",
+      title: "Facebook CTR",
+      metricId: "facebookCtr",
+      tip: "Click Through Rate. Percentage of people clicking the ad",
+      services: ["facebook-ads"],
+      type: "percent",
+      delta: -1,
+      values: {
+        current: 4.232131504858778,
+        previous: 4.274913307941561,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 4.250606476110115,
+          },
+          {
+            x: 163,
+            y: 4.117647058823529,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 4.303329223181258,
+          },
+          {
+            x: 162,
+            y: 4.250606476110115,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookCpoc",
+      title: "Facebook CPOC",
+      metricId: "facebookCostPerOutboundClick",
+      tip: "Cost Per Outbound Click",
+      services: ["facebook-ads"],
+      type: "currency",
+      delta: 1,
+      values: {
+        current: 1.3457964601769914,
+        previous: 1.330424403183024,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 1.351326530612245,
+          },
+          {
+            x: 163,
+            y: 1.3096666666666665,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 1.3077900552486188,
+          },
+          {
+            x: 162,
+            y: 1.351326530612245,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookConversionValue",
+      title: "Facebook Conversion Value",
+      metricId: "facebookConversionValue",
+      tip: "Facebook-reported revenue from Purchases on your site or on Meta Shop",
+      services: ["facebook-ads"],
+      type: "currency",
+      delta: -69,
+      values: {
+        current: 159.47,
+        previous: 523.36,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 127.97,
+          },
+          {
+            x: 163,
+            y: 31.5,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 395.39,
+          },
+          {
+            x: 162,
+            y: 127.97,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookWebConversionValue",
+      title: "Facebook Web Conversion Value",
+      metricId: "facebookWebConversionValue",
+      tip: "Facebook-reported revenue from Purchases on your site",
+      services: ["facebook-ads"],
+      type: "currency",
+      delta: -69,
+      values: {
+        current: 159.47,
+        previous: 523.36,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 127.97,
+          },
+          {
+            x: 163,
+            y: 31.5,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 395.39,
+          },
+          {
+            x: 162,
+            y: 127.97,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookMetaConversionValue",
+      title: "Facebook Meta Conversion Value",
+      metricId: "facebookMetaConversionValue",
+      tip: "Facebook-reported revenue from Purchases on Meta Shop",
+      services: ["facebook-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookRevenuePerClick",
+      title: "Revenue Per Link Click",
+      metricId: "facebookRevenuePerClick",
+      tip: "Conversion Value / Outbound Clicks",
+      services: ["facebook-ads"],
+      type: "currency",
+      delta: -49,
+      values: {
+        current: 0.7056194690265487,
+        previous: 1.3882228116710875,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0.6529081632653061,
+          },
+          {
+            x: 163,
+            y: 1.0499999999999998,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 2.184475138121547,
+          },
+          {
+            x: 162,
+            y: 0.6529081632653061,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookCpa",
+      title: "Facebook CPA",
+      metricId: "facebookCpa",
+      tip: "Cost Per Acquisition",
+      services: ["facebook-ads"],
+      type: "currency",
+      delta: 61,
+      values: {
+        current: 101.38333333333334,
+        previous: 62.696250000000006,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 132.43,
+          },
+          {
+            x: 163,
+            y: 39.29,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 39.45166666666667,
+          },
+          {
+            x: 162,
+            y: 132.43,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookPurchases",
+      title: "Purchases",
+      metricId: "facebookPurchases",
+      tip: "Orders made on your site or on Meta Shop",
+      services: ["facebook-ads"],
+      type: "decimal",
+      delta: -62,
+      values: {
+        current: 3,
+        previous: 8,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 2,
+          },
+          {
+            x: 163,
+            y: 1,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 6,
+          },
+          {
+            x: 162,
+            y: 2,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookMetaPurchases",
+      title: "Meta Purchases",
+      metricId: "facebookMetaPurchases",
+      tip: "Orders made on Meta Shop",
+      services: ["facebook-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookWebPurchases",
+      title: "Web Purchases",
+      metricId: "facebookWebPurchases",
+      tip: "Orders made on your site",
+      services: ["facebook-ads"],
+      type: "decimal",
+      delta: -62,
+      values: {
+        current: 3,
+        previous: 8,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 2,
+          },
+          {
+            x: 163,
+            y: 1,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 6,
+          },
+          {
+            x: 162,
+            y: 2,
+          },
+        ],
+      },
+    },
+    {
+      id: "newCustomersCpa",
+      title: "New Customers CPA",
+      metricId: "newCustomersCpa",
+      tip: "New Customer Cost Per Acquisition. Total Ad Spend / New Customers",
+      services: ["blended"],
+      type: "currency",
+      delta: 99,
+      values: {
+        current: 88.66051050000002,
+        previous: 44.38429346153846,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 78.4260845,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 161,
+            y: 29.254608555555553,
+          },
+          {
+            x: 162,
+            y: 78.4260845,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoSalesPercent",
+      title: "Klaviyo Sales %",
+      metricId: "totalKlaviyoPlacedOrderSalesPercent",
+      services: ["klaviyo"],
+      type: "percent",
+      delta: -11,
+      values: {
+        current: 47.5342957999535,
+        previous: 53.96611138460562,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 47.5342957999535,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 57.83576869762059,
+          },
+          {
+            x: 162,
+            y: 47.5342957999535,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoFlowsSalesPercent",
+      title: "Klaviyo Flows Sales %",
+      metricId: "totalKlaviyoPlacedOrderSalesPercentFlows",
+      services: ["klaviyo"],
+      type: "percent",
+      delta: 76,
+      values: {
+        current: 25.98448498171595,
+        previous: 14.762350923440948,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 25.98448498171595,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 8.01063166863785,
+          },
+          {
+            x: 162,
+            y: 25.98448498171595,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoCampaignsSalesPercent",
+      title: "Klaviyo Campaigns Sales %",
+      metricId: "totalKlaviyoPlacedOrderSalesPercentCampaigns",
+      services: ["klaviyo"],
+      type: "percent",
+      delta: -45,
+      values: {
+        current: 21.549810818237543,
+        previous: 39.20376046116466,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 21.549810818237543,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 49.82513702898274,
+          },
+          {
+            x: 162,
+            y: 21.549810818237543,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoEmailOpenRate",
+      title: "Email Open Rate",
+      metricId: "klaviyoEmailOpenRate",
+      tip: "Received Emails / Opened Emails. On a one day view this metric is off and in general TripleWhale's number does not match Klaviyo's number.",
+      services: ["klaviyo"],
+      type: "percent",
+      delta: 14,
+      values: {
+        current: 100,
+        previous: 87.69871678764996,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "klaviyoUnsubscribed",
+      title: "Unsubscribed",
+      metricId: "totalKlaviyoUnsubscribed",
+      services: ["klaviyo"],
+      type: "decimal",
+      delta: -73,
+      values: {
+        current: 64,
+        previous: 241,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 62,
+          },
+          {
+            x: 163,
+            y: 2,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 179,
+          },
+          {
+            x: 162,
+            y: 62,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoPlacedOrderTotalPriceFlows",
+      title: "Revenue Flows",
+      metricId: "totalKlaviyoPlacedOrderTotalPriceFlows",
+      services: ["klaviyo"],
+      type: "currency",
+      delta: -33,
+      values: {
+        current: 122.93,
+        previous: 185.92000000000002,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 122.93,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 62.99,
+          },
+          {
+            x: 162,
+            y: 122.93,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoPlacedOrderTotalPriceFlowsPercent",
+      title: "Percent of Revenue Flows",
+      metricId: "totalKlaviyoPlacedOrderSalesPercentFlows",
+      services: ["klaviyo"],
+      type: "percent",
+      delta: 76,
+      values: {
+        current: 25.98448498171595,
+        previous: 14.762350923440948,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 122.93,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 62.99,
+          },
+          {
+            x: 162,
+            y: 122.93,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoPlacedOrderTotalPriceCampaigns",
+      title: "Revenue Campaigns",
+      metricId: "totalKlaviyoPlacedOrderTotalPriceCampaigns",
+      services: ["klaviyo"],
+      type: "currency",
+      delta: -79,
+      values: {
+        current: 101.95,
+        previous: 493.74,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 101.95,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 391.79,
+          },
+          {
+            x: 162,
+            y: 101.95,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoPlacedOrderTotalPriceCampaignsPercent",
+      title: "Percent of Revenue Campaigns",
+      metricId: "totalKlaviyoPlacedOrderSalesPercentCampaigns",
+      services: ["klaviyo"],
+      type: "percent",
+      delta: -45,
+      values: {
+        current: 21.549810818237543,
+        previous: 39.20376046116466,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 101.95,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 391.79,
+          },
+          {
+            x: 162,
+            y: 101.95,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoNewSubscribed",
+      title: "New Subscribed",
+      metricId: "totalKlaviyoSubscribedToList",
+      services: ["klaviyo"],
+      type: "decimal",
+      delta: -42,
+      values: {
+        current: 4,
+        previous: 7,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 3,
+          },
+          {
+            x: 163,
+            y: 1,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 4,
+          },
+          {
+            x: 162,
+            y: 3,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoEmailsClicked",
+      title: "Emails Clicked",
+      metricId: "totalKlaviyoClickedEmail",
+      services: ["klaviyo"],
+      type: "decimal",
+      delta: -64,
+      values: {
+        current: 88,
+        previous: 250,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 87,
+          },
+          {
+            x: 163,
+            y: 1,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 163,
+          },
+          {
+            x: 162,
+            y: 87,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoReceivedEmail",
+      title: "Emails Received",
+      metricId: "totalKlaviyoReceivedEmail",
+      services: ["klaviyo"],
+      type: "decimal",
+      delta: -99,
+      values: {
+        current: 436,
+        previous: 71773,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 414,
+          },
+          {
+            x: 163,
+            y: 22,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 71359,
+          },
+          {
+            x: 162,
+            y: 414,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoSmsClicked",
+      title: "SMS Clicked",
+      metricId: "totalKlaviyoClickedSms",
+      services: ["klaviyo"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoCVR",
+      title: "CVR",
+      metricId: "klaviyoCVR",
+      tip: "Conversion Rate. Purchase Number / Received Emails",
+      services: ["klaviyo"],
+      type: "decimal",
+      delta: 4441,
+      values: {
+        current: 0.01834862385321101,
+        previous: 0.000404051662881585,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 1.932367149758454,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0.02942866351826679,
+          },
+          {
+            x: 162,
+            y: 1.932367149758454,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoRevenuePerEmail",
+      title: "Revenue Per Email",
+      metricId: "klaviyoRevenuePerEmail",
+      tip: "Sales / Received Emails",
+      services: ["klaviyo"],
+      type: "decimal",
+      delta: 6083,
+      values: {
+        current: 1.0850688073394497,
+        previous: 0.017547267078149166,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 114.27294685990339,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 1.1019352849675583,
+          },
+          {
+            x: 162,
+            y: 114.27294685990339,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoNetNewSubscribers",
+      title: "Net New subscribers",
+      metricId: "totalKlaviyoNetNewSubscribers",
+      services: ["klaviyo"],
+      type: "decimal",
+      delta: 74,
+      values: {
+        current: -60,
+        previous: -234,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: -59,
+          },
+          {
+            x: 163,
+            y: -1,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: -175,
+          },
+          {
+            x: 162,
+            y: -59,
+          },
+        ],
+      },
+    },
+    {
+      id: "klaviyoPlacedOrderSales",
+      title: "Total Revenue",
+      metricId: "klaviyoPlacedOrderSales",
+      services: ["klaviyo"],
+      type: "currency",
+      delta: -66,
+      values: {
+        current: 224.88,
+        previous: 679.6600000000001,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "attentivePlacedOrderSales",
+      title: "Total Revenue",
+      metricId: "attentivePlacedOrderSales",
+      services: ["ATTENTIVE"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalAttentivePlacedOrder",
+      title: "Placed Order",
+      metricId: "totalAttentivePlacedOrder",
+      services: ["ATTENTIVE"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "attentiveNewSubscribed",
+      title: "New Subscribed",
+      metricId: "totalAttentiveNewSubscribed",
+      services: ["ATTENTIVE"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "attentiveNetNewsubscribers",
+      title: "Net New subscribers",
+      metricId: "totalAttentiveNetNewsubscribers",
+      services: ["ATTENTIVE"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "attentiveUnsubscribed",
+      title: "Unsubscribed",
+      metricId: "totalAttentiveUnsubscribed",
+      services: ["ATTENTIVE"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "attentiveSalesPercent",
+      title: "Attentive Sales %",
+      metricId: "totalAttentivePlacedOrderSalesPercent",
+      services: ["ATTENTIVE"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "attentivePlacedOrderTotalPriceFlows",
+      title: "Revenue Flows",
+      metricId: "totalAttentivePlacedOrderTotalPriceFlows",
+      services: ["ATTENTIVE"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "attentivePlacedOrderTotalPriceFlowsPercent",
+      title: "Percent of Revenue Flows",
+      metricId: "totalAttentivePlacedOrderSalesPercentFlows",
+      services: ["ATTENTIVE"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "attentivePlacedOrderTotalPriceCampaigns",
+      title: "Revenue Campaigns",
+      metricId: "totalAttentivePlacedOrderTotalPriceCampaigns",
+      services: ["ATTENTIVE"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "attentivePlacedOrderTotalPriceCampaignsPercent",
+      title: "Percent of Revenue Campaigns",
+      metricId: "totalAttentivePlacedOrderSalesPercentCampaigns",
+      services: ["ATTENTIVE"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "tiktokAds",
+      title: "TikTok Ads",
+      metricId: "tiktok_spend",
+      services: ["tiktok-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "tiktokRoas",
+      title: "TikTok ROAS",
+      metricId: "tiktok_complete_payment_roas",
+      tip: "Return on Ad Spend",
+      services: ["tiktok-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "tiktokImpressions",
+      title: "TikTok Impressions",
+      metricId: "tiktokImpressions",
+      services: ["tiktok-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "tiktokCpm",
+      title: "TikTok CPM",
+      metricId: "averageTiktokCpm",
+      tip: "Cost Per 1000 Impressions",
+      services: ["tiktok-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "tiktokCpc",
+      title: "TikTok CPC",
+      metricId: "averageTiktokCpc",
+      tip: "Cost Per Click",
+      services: ["tiktok-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "tiktokCtr",
+      title: "TikTok CTR",
+      metricId: "tiktokCtr",
+      services: ["tiktok-ads"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "tiktokCpa",
+      title: "TikTok CPA",
+      metricId: "tiktokCpa",
+      tip: "Cost Per Acquisition",
+      services: ["tiktok-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "tiktokConversionValue",
+      title: "TikTok Conversion Value",
+      metricId: "tiktokConversionValue",
+      services: ["tiktok-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "tiktokPurchases",
+      title: "TikTok Purchases",
+      metricId: "tiktokPurchases",
+      services: ["tiktok-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "uniqueCustomerSales",
+      title: "LTV",
+      metricId: "uniqueCustomerLifetimeValue",
+      tip: "Lifetime Value. Sales / Unique Customers",
+      services: ["shopify"],
+      type: "currency",
+      delta: 36,
+      values: {
+        current: 59.136250000000004,
+        previous: 43.428275862068965,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "customerFrequency",
+      title: "Frequency",
+      metricId: "customerFrequency",
+      tip: "The average number of times Unique Customers place a purchase",
+      services: ["shopify"],
+      type: "decimal",
+      delta: 38,
+      values: {
+        current: 1,
+        previous: 0.7241379310344828,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "ltvCpa",
+      title: "LTV/CPA",
+      metricId: "ltvCpa",
+      tip: "Lifetime Value / Cost Per Acquisition",
+      services: ["shopify"],
+      type: "decimal",
+      delta: -15,
+      values: {
+        current: 1.3339929956753407,
+        previous: 1.580589961650672,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "mer",
+      title: "MER",
+      metricId: "mer",
+      tip: "Marketing Efficiency Ratio. Percentage of Sales spent on Ads",
+      services: ["facebook-ads", "google-ads", "snapchat-ads", "tiktok-ads"],
+      type: "percent",
+      delta: 63,
+      values: {
+        current: 74.96291234226047,
+        previous: 45.81440782264852,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 66.30965313153945,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 161,
+            y: 33.48358539035773,
+          },
+          {
+            x: 162,
+            y: 66.30965313153945,
+          },
+        ],
+      },
+    },
+    {
+      id: "totalReturns",
+      title: "Returns %",
+      metricId: "totalReturns",
+      tip: "Refunds / Sales. The percentage of your returns relative to your sales",
+      services: ["shopify"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "orders",
+      title: "Orders",
+      metricId: "totalOrders",
+      tip: "Number of Orders within the selected timeframe",
+      services: ["shopify"],
+      type: "decimal",
+      delta: -72,
+      values: {
+        current: 8,
+        previous: 29,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 8,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 21,
+          },
+          {
+            x: 162,
+            y: 8,
+          },
+        ],
+      },
+    },
+    {
+      id: "taxes",
+      title: "Taxes",
+      metricId: "totalTaxes",
+      tip: "Amount customers paid in taxes",
+      services: ["shopify"],
+      type: "currency",
+      delta: -45,
+      values: {
+        current: 3.36,
+        previous: 6.15,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 3.36,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 2.79,
+          },
+          {
+            x: 162,
+            y: 3.36,
+          },
+        ],
+      },
+    },
+    {
+      id: "newCustomersPercent",
+      title: "New Customers",
+      metricId: "newCustomersPercent",
+      tip: "Percentage of orders placed by New Customers",
+      services: ["shopify"],
+      type: "percent",
+      delta: 11,
+      values: {
+        current: 50,
+        previous: 44.827586206896555,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 50,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 42.857142857142854,
+          },
+          {
+            x: 162,
+            y: 50,
+          },
+        ],
+      },
+    },
+    {
+      id: "oldCustomersPercent",
+      title: "Returning Customers",
+      metricId: "oldCustomersPercent",
+      tip: "Percentage of orders placed by Returning Customers",
+      services: ["shopify"],
+      type: "percent",
+      delta: -9,
+      values: {
+        current: 50,
+        previous: 55.172413793103445,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 15.449491640068487,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: -14.455762847659372,
+          },
+          {
+            x: 162,
+            y: 15.449491640068487,
+          },
+        ],
+      },
+    },
+    {
+      id: "newCustomersOrders",
+      title: "New Customer Orders",
+      metricId: "newCustomersOrders",
+      tip: "Number of orders placed by New Customers",
+      services: ["shopify"],
+      type: "decimal",
+      delta: -69,
+      values: {
+        current: 4,
+        previous: 13,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 4,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 9,
+          },
+          {
+            x: 162,
+            y: 4,
+          },
+        ],
+      },
+    },
+    {
+      id: "uniqueCustomers",
+      title: "Unique Customers",
+      metricId: "getUniqueCustomerCount",
+      tip: "Number of Unique Customers within the selected timeframe",
+      services: ["shopify"],
+      type: "decimal",
+      delta: -72,
+      values: {
+        current: 8,
+        previous: 29,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "shipping",
+      title: "Shipping",
+      metricId: "totalShippingCosts",
+      tip: "Amount the store paid in shipping costs for fulfilling orders within the select timeframe. Edit these in: Store > Shipping",
+      services: ["shopify"],
+      type: "currency",
+      delta: -72,
+      values: {
+        current: 22.64,
+        previous: 82.07,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 22.64,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 59.43,
+          },
+          {
+            x: 162,
+            y: 22.64,
+          },
+        ],
+      },
+    },
+    {
+      id: "googleAnalyticsUsers",
+      title: "Sessions",
+      metricId: "totalGoogleAnalyticsUsers",
+      services: ["GOOGLE_ANALYTICS"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "gorgiasTotalTicketsCreated",
+      title: "Tickets Created",
+      metricId: "totalGorgiasTicketsCreated",
+      services: ["GORGIAS"],
+      type: "decimal",
+      delta: 11,
+      values: {
+        current: 10,
+        previous: 9,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 1,
+          },
+          {
+            x: 1,
+            y: 1,
+          },
+          {
+            x: 2,
+            y: 1,
+          },
+          {
+            x: 3,
+            y: 1,
+          },
+          {
+            x: 4,
+            y: 1,
+          },
+          {
+            x: 5,
+            y: 1,
+          },
+          {
+            x: 6,
+            y: 1,
+          },
+          {
+            x: 7,
+            y: 1,
+          },
+          {
+            x: 8,
+            y: 1,
+          },
+          {
+            x: 9,
+            y: 1,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 1,
+          },
+          {
+            x: 1,
+            y: 1,
+          },
+          {
+            x: 2,
+            y: 1,
+          },
+          {
+            x: 3,
+            y: 1,
+          },
+          {
+            x: 4,
+            y: 1,
+          },
+          {
+            x: 5,
+            y: 1,
+          },
+          {
+            x: 6,
+            y: 1,
+          },
+          {
+            x: 7,
+            y: 1,
+          },
+          {
+            x: 8,
+            y: 1,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "gorgiasTotalTicketsReplied",
+      title: "Tickets Replied",
+      metricId: "totalGorgiasTicketsReplied",
+      services: ["GORGIAS"],
+      type: "decimal",
+      delta: -100,
+      values: {
+        current: 0,
+        previous: 1,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 1,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "gorgiasAverageResponseTime",
+      title: "Response Time",
+      metricId: "averageGorgiasResponseTime",
+      services: ["GORGIAS"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "gorgiasAverageResolutionTime",
+      title: "Resolution Time",
+      metricId: "averageGorgiasResolutionTime",
+      services: ["GORGIAS"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "totalVariantsSold",
+      title: "Items Sold",
+      metricId: "totalVariantsSold",
+      tip: "Number of items sold within the selected timeframe",
+      services: ["shopify"],
+      type: "decimal",
+      delta: -76,
+      values: {
+        current: 12,
+        previous: 51,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 12,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 39,
+          },
+          {
+            x: 162,
+            y: 12,
+          },
+        ],
+      },
+    },
+    {
+      id: "blendedAds",
+      title: "Blended Ad Spend",
+      metricId: "blendedAds",
+      tip: "Total Ad Spend. This includes the reported ad spend of each marketing channel connected to Triple Whale, plus any Custom Expenses marked as Ad Spend",
+      services: ["shopify", "facebook-ads", "google-ads", "snapchat-ads", "tiktok-ads", "pinterest-ads", "bing"],
+      type: "currency",
+      delta: -38,
+      values: {
+        current: 354.64204200000006,
+        previous: 576.995815,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 313.704338,
+          },
+          {
+            x: 163,
+            y: 40.937704,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 161,
+            y: 263.291477,
+          },
+          {
+            x: 162,
+            y: 313.704338,
+          },
+        ],
+      },
+    },
+    {
+      id: "roas",
+      title: "Blended ROAS",
+      metricId: "totalRoas",
+      tip: "Blended Return on Ad Spend. Sales / Blended Ads",
+      services: ["shopify", "facebook-ads", "google-ads", "snapchat-ads", "tiktok-ads", "pinterest-ads", "bing"],
+      type: "decimal",
+      delta: -38,
+      values: {
+        current: 1.33,
+        previous: 2.18,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 1.508076053446223,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 2.9865379956830127,
+          },
+          {
+            x: 162,
+            y: 1.508076053446223,
+          },
+        ],
+      },
+    },
+    {
+      id: "newCustomersRoas",
+      title: "New Customer ROAS",
+      metricId: "newCustomersRoas",
+      tip: "New Customer Return on Ad Spend. Sales from New Customers / Blended Ad Spend",
+      services: ["shopify", "facebook-ads", "google-ads", "snapchat-ads", "tiktok-ads", "pinterest-ads", "bing"],
+      type: "decimal",
+      delta: -21,
+      values: {
+        current: "0.63",
+        previous: "0.80",
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0.7098084821511139,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0.9168925737767045,
+          },
+          {
+            x: 162,
+            y: 0.7098084821511139,
+          },
+        ],
+      },
+    },
+    {
+      id: "blendedAttributedRoas",
+      title: "Blended Attributed ROAS",
+      metricId: "blendedAttributedRoas",
+      tip: "Blended-Attributed Return on Ad Spend. Total Blended Conversion Value / Blended Ad Spend",
+      services: ["facebook-ads", "google-ads", "snapchat-ads", "tiktok-ads"],
+      type: "decimal",
+      delta: -47,
+      values: {
+        current: "0.92",
+        previous: "1.74",
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0.9439840589644635,
+          },
+          {
+            x: 163,
+            y: 0.769461814468149,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 2.684211460441616,
+          },
+          {
+            x: 162,
+            y: 0.9439840589644635,
+          },
+        ],
+      },
+    },
+    {
+      id: "poas",
+      title: "Profit on Ad Spend",
+      metricId: "poas",
+      tip: "Profit on Ad Spend. Gross Profit/Total Ad Spend",
+      services: ["shopify", "facebook-ads", "google-ads", "snapchat-ads", "tiktok-ads", "pinterest-ads", "bing"],
+      type: "decimal",
+      delta: -29,
+      values: {
+        current: 0.9859519137327772,
+        previous: 1.3920378261322401,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "shopifyCpa",
+      title: "Blended CPA",
+      metricId: "shopifyCpa",
+      tip: "Cost Per Acquisition. Blended Ad Spend / Orders > $0",
+      services: ["shopify", "facebook-ads", "google-ads", "snapchat-ads", "tiktok-ads", "pinterest-ads", "bing"],
+      type: "currency",
+      delta: 61,
+      values: {
+        current: 44.33025525000001,
+        previous: 27.47599119047619,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 39.21304225,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 161,
+            y: 20.25319053846154,
+          },
+          {
+            x: 162,
+            y: 39.21304225,
+          },
+        ],
+      },
+    },
+    {
+      id: "pinterestAds",
+      title: "Pinterest Ads",
+      metricId: "pinterestSpend",
+      services: ["pinterest-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "pinterestRoas",
+      title: "Pinterest ROAS",
+      metricId: "pinterestRoas",
+      tip: "Return on Ad Spend",
+      services: ["pinterest-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "pinterestCpc",
+      title: "Pinterest CPC",
+      metricId: "pinterestCpc",
+      tip: "Cost Per Click",
+      services: ["pinterest-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "pinterestCpm",
+      title: "Pinterest CPM",
+      metricId: "pinterestCpm",
+      tip: "Cost Per 1000 Impressions",
+      services: ["pinterest-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "pinterestConversionValue",
+      title: "Pinterest Conversion Value",
+      metricId: "pinterestConversionValue",
+      services: ["pinterest-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "pinterestPurchases",
+      title: "Pinterest Purchases",
+      metricId: "pinterestPurchases",
+      services: ["pinterest-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "pinterestImpressions",
+      title: "Pinterest Impressions",
+      metricId: "pinterestImpressions",
+      services: ["pinterest-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "pinterestCtr",
+      title: "Pinterest CTR",
+      metricId: "pinterestCtr",
+      services: ["pinterest-ads"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksCPM",
+      title: "Peer Facebook CPM",
+      metricId: "totalBenchmarksCPM",
+      tip: "Average Facebook Cost Per 1000 Impressions",
+      services: ["benchmarks"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksCPC",
+      title: "Peer Facebook CPC",
+      metricId: "totalBenchmarksCPC",
+      tip: "Average Facebook Cost Per Click",
+      services: ["benchmarks"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksCTR",
+      title: "Peer Facebook CTR",
+      metricId: "totalBenchmarksCTR",
+      tip: "Average Facebook Click Through Rate",
+      services: ["benchmarks"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksNCROAS",
+      title: "Peer New Customer Blended ROAS",
+      metricId: "totalBenchmarksNCROAS",
+      tip: "Average New Customers Blended Return On Ad Spend",
+      services: ["benchmarks"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksNCPA",
+      title: "Peer New Customer Blended CPA",
+      metricId: "totalBenchmarksNCPA",
+      tip: "Average New Customers Blended Cost Per Acquisition",
+      services: ["benchmarks"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksBlendedROAS",
+      title: "Peer Blended ROAS",
+      metricId: "totalBenchmarksBlendedROAS",
+      tip: "Average Blended Return On Ad Spend",
+      services: ["benchmarks"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksTotalSpendAvg",
+      title: "Peer Facebook Spend",
+      metricId: "totalBenchmarksTotalSpendAvg",
+      tip: "Average Facebook Spend",
+      services: ["benchmarks"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksNewCustomersAvg",
+      title: "Peer Facebook New Customers",
+      metricId: "totalBenchmarksNewCustomersAvg",
+      tip: "Average Facebook Number of New Customers",
+      services: ["benchmarks"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksSize",
+      title: "Peer Group Size",
+      metricId: "totalBenchmarksSize",
+      services: ["benchmarks"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksOrdersAvg",
+      title: "Peer Facebook Number Of Orders",
+      metricId: "totalBenchmarksOrdersAvg",
+      tip: "Average Facebook Number of Orders",
+      services: ["benchmarks"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksNewCustomersTotalPriceAvg",
+      title: "Peer New Customers Conversion Value",
+      metricId: "totalBenchmarksNewCustomersTotalPriceAvg",
+      tip: "Average New Customers Conversion Value",
+      services: ["benchmarks"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksTotalPriceUSDAvg",
+      title: "Peer Facebook Conversion Value",
+      metricId: "totalBenchmarksTotalPriceUSDAvg",
+      tip: "Average Facebook Conversion Value in USD",
+      services: ["benchmarks"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksFBAdsSpendAvg",
+      title: "Peer Facebook Ads Spend",
+      metricId: "totalBenchmarksFBAdsSpendAvg",
+      tip: "Average Facebook Spend",
+      services: ["benchmarks"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksFBAdsImpressionsAvg",
+      title: "Peer Facebook Impressions",
+      metricId: "totalBenchmarksFBAdsImpressionsAvg",
+      tip: "Average Facebook Impressions",
+      services: ["benchmarks"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksFBAdsClicksAvg",
+      title: "Peer Facebook Clicks",
+      metricId: "totalBenchmarksFBAdsClicksAvg",
+      tip: "Average Facebook Clicks",
+      services: ["benchmarks"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksFacebookRoas",
+      title: "Peer Facebook ROAS",
+      metricId: "benchmarksFacebookRoas",
+      tip: "Average Facebook Return On Ad Spend",
+      services: ["benchmarks"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "benchmarksGoogleRoas",
+      title: "Peer Google ROAS",
+      metricId: "benchmarksGoogleRoas",
+      tip: "Average Google Return On Ad Spend",
+      services: ["benchmarks"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalBenchmarksCPCGoogle",
+      title: "Peer Google CPC",
+      metricId: "totalBenchmarksCPCGoogle",
+      tip: "Average Google Cost Per Click",
+      services: ["benchmarks"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalBenchmarksCPMGoogle",
+      title: "Peer Google CPM",
+      metricId: "totalBenchmarksCPMGoogle",
+      tip: "Average Google Cost Per Thousand Impressions",
+      services: ["benchmarks"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalBenchmarksCTRGoogle",
+      title: "Peer Google CTR",
+      metricId: "totalBenchmarksCTRGoogle",
+      tip: "Average Google Click Through Rate",
+      services: ["benchmarks"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "web",
+      title: "web",
+      metricId: "sources",
+      tip: "Source from Shopify",
+      services: ["SHOPIFY"],
+      type: "currency",
+      delta: 0,
+      values: {},
+      charts: {},
+    },
+    {
+      id: "pos",
+      title: "pos",
+      metricId: "sources",
+      tip: "Source from Shopify",
+      services: ["SHOPIFY"],
+      type: "decimal",
+      delta: 0,
+      values: {},
+      charts: {},
+    },
+    {
+      id: "shopify_draft_order",
+      title: "shopify_draft_order",
+      metricId: "sources",
+      tip: "Source from Shopify",
+      services: ["SHOPIFY"],
+      type: "currency",
+      delta: 0,
+      values: {},
+      charts: {},
+    },
+    {
+      id: "iphone",
+      title: "iphone",
+      metricId: "sources",
+      tip: "Source from Shopify",
+      services: ["SHOPIFY"],
+      type: "decimal",
+      delta: 0,
+      values: {},
+      charts: {},
+    },
+    {
+      id: "android",
+      title: "android",
+      metricId: "sources",
+      tip: "Source from Shopify",
+      services: ["SHOPIFY"],
+      type: "currency",
+      delta: 0,
+      values: {},
+      charts: {},
+    },
+    {
+      id: "totalFacebookEnq",
+      title: "From facebook",
+      metricId: "totalFacebookEnq",
+      services: ["enquirelabs"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalGoogleEnq",
+      title: "From Google",
+      metricId: "totalGoogleEnq",
+      services: ["enquirelabs"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalSnapchatEnq",
+      title: "From Snapchat",
+      metricId: "totalSnapchatEnq",
+      services: ["enquirelabs"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalTiktokEnq",
+      title: "From TikTok",
+      metricId: "totalTiktokEnq",
+      services: ["enquirelabs"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalPinterestEnq",
+      title: "From Pinterest",
+      metricId: "totalPinterestEnq",
+      services: ["enquirelabs"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalInstagramEnq",
+      title: "From Instagram",
+      metricId: "totalInstagramEnq",
+      services: ["enquirelabs"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "responsesPrecent",
+      title: "% Responses",
+      metricId: "responsesPrecent",
+      tip: "% responses from total orders",
+      services: ["enquirelabs"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalFacebookKno",
+      title: "From facebook",
+      metricId: "totalFacebookKno",
+      services: ["kno"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalGoogleKno",
+      title: "From Google",
+      metricId: "totalGoogleKno",
+      services: ["kno"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalSnapchatKno",
+      title: "From Snapchat",
+      metricId: "totalSnapchatKno",
+      services: ["kno"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalTiktokKno",
+      title: "From TikTok",
+      metricId: "totalTiktokKno",
+      services: ["kno"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalPinterestKno",
+      title: "From Pinterest",
+      metricId: "totalPinterestKno",
+      services: ["kno"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalInstagramKno",
+      title: "From Instagram",
+      metricId: "totalInstagramKno",
+      services: ["kno"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "responsesPrecentKno",
+      title: "% Responses",
+      metricId: "responsesPrecentKno",
+      tip: "% responses from total orders",
+      services: ["kno"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "rechargeNewSub",
+      title: "Total New Active Subscriptions",
+      metricId: "rechargeNewSub",
+      services: ["RECHARGE"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "rechargeTotalNewSubscriptions",
+      title: "New Subscriptions",
+      metricId: "rechargeTotalNewSubscriptions",
+      services: ["RECHARGE"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "rechargeCanceledSub",
+      title: "Canceled Subscriptions",
+      metricId: "rechargeCanceledSub",
+      services: ["RECHARGE"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "rechargeExpiredSub",
+      title: "Expired Subscriptions",
+      metricId: "rechargeExpiredSub",
+      services: ["RECHARGE"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "rechargeTotalActiveSubsribers",
+      title: "Active Subscriptions",
+      metricId: "rechargeTotalActiveSubsribers",
+      services: ["RECHARGE"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "rechargeTotalNetSales",
+      title: "Net Sales",
+      metricId: "rechargeTotalNetSales",
+      services: ["RECHARGE"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "rechargeItemsCount",
+      title: "Total Items",
+      metricId: "rechargeItemsCount",
+      services: ["RECHARGE"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "rechargeTransactionCount",
+      title: "Total Orders",
+      metricId: "rechargeTransactionCount",
+      services: ["RECHARGE"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "rechargeChurnRate",
+      title: "Customers Churn Rate",
+      metricId: "rechargeChurnRate",
+      services: ["RECHARGE"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "rechargeMRR",
+      title: "MRR",
+      metricId: "rechargeMRR",
+      services: ["RECHARGE"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "rechargeTotalActiveCustomers",
+      title: "Active Customers",
+      metricId: "rechargeTotalActiveCustomers",
+      services: ["RECHARGE"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "rechargeTotalChurnedCustomers",
+      title: "Churned Customers",
+      metricId: "rechargeTotalChurnedCustomers",
+      services: ["RECHARGE"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookLikes",
+      title: "Likes",
+      metricId: "facebookLikes",
+      tip: "total likes for page and posts",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookComments",
+      title: "Comments",
+      metricId: "facebookComments",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookShares",
+      title: "Shares",
+      metricId: "facebookShares",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookPosts",
+      title: "Posts",
+      metricId: "facebookPosts",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookFollowers",
+      title: "Followers",
+      metricId: "facebookFollowers",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookSocialImpressions",
+      title: "Impressions",
+      metricId: "facebookSocialImpressions",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookSocialAvg",
+      title: "AVG",
+      metricId: "facebookSocialAvg",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookReach",
+      title: "Reach",
+      metricId: "facebookReach",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookProfileView",
+      title: "Profile view",
+      metricId: "facebookProfileView",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "facebookWebsiteClicks",
+      title: "Website Clicks",
+      metricId: "facebookWebsiteClicks",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "instagramLikes",
+      title: "Likes",
+      metricId: "instagramLikes",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "instagramComments",
+      title: "Comments",
+      metricId: "instagramComments",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "instagramShares",
+      title: "Shares",
+      metricId: "instagramShares",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "instagramPosts",
+      title: "Media posted",
+      metricId: "instagramPosts",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "instagramFollowers",
+      title: "Followers",
+      metricId: "instagramFollowers",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "instagramImpressions",
+      title: "Impressions",
+      metricId: "instagramImpressions",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "instagramAvg",
+      title: "AVG",
+      metricId: "instagramAvg",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "instagramAvgImpressionsFollowers",
+      title: "AVG",
+      metricId: "instagramAvgImpressionsFollowers",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "instagramReach",
+      title: "Reach",
+      metricId: "instagramReach",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "instagramProfileView",
+      title: "Profile view",
+      metricId: "instagramProfileView",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "instagramWebsiteClicks",
+      title: "Website Clicks",
+      metricId: "instagramWebsiteClicks",
+      tip: "",
+      services: ["FACEBOOK_SOCIAL"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+          {
+            x: 1,
+            y: 0,
+          },
+          {
+            x: 2,
+            y: 0,
+          },
+          {
+            x: 3,
+            y: 0,
+          },
+          {
+            x: 4,
+            y: 0,
+          },
+          {
+            x: 5,
+            y: 0,
+          },
+          {
+            x: 6,
+            y: 0,
+          },
+          {
+            x: 7,
+            y: 0,
+          },
+          {
+            x: 8,
+            y: 0,
+          },
+          {
+            x: 9,
+            y: 0,
+          },
+          {
+            x: 10,
+            y: 0,
+          },
+          {
+            x: 11,
+            y: 0,
+          },
+          {
+            x: 12,
+            y: 0,
+          },
+          {
+            x: 13,
+            y: 0,
+          },
+          {
+            x: 14,
+            y: 0,
+          },
+          {
+            x: 15,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "influencerConversionValue",
+      title: "Affluencer Conversion Value",
+      metricId: "influencerConversionValue",
+      tip: "Conversion Value",
+      services: ["influencers"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "influencerSpend",
+      title: "Affluencer Spend",
+      metricId: "influencerSpend",
+      services: ["influencers"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "influencerRoas",
+      title: "Affluencer Roas",
+      metricId: "influencerRoas",
+      tip: "Return on Ad Spend",
+      services: ["influencers"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "influencerPurchases",
+      title: "Affluencer Purchases",
+      metricId: "influencerPurchases",
+      services: ["influencers"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "influencerNcPurchases",
+      title: "Affluencer New Customer Purchases",
+      metricId: "influencerNcPurchases",
+      services: ["influencers"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "influencerNcConversionValue",
+      title: "Affluencer New Customer Conversion Value",
+      metricId: "influencerNcConversionValue",
+      tip: "New Customer Conversion Value",
+      services: ["influencers"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "totalCustomAdSpends",
+      title: "Custom Expense Ad Spend",
+      metricId: "totalCustomAdSpends",
+      services: [],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 0,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 0,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonSales",
+      title: "Amazon Sales",
+      metricId: "totalAmazonSales",
+      tip: "Gross sales value. What the customer paid for the order including shipping, taxes, discounts",
+      services: ["amazon"],
+      type: "currency",
+      delta: -51,
+      values: {
+        current: 99.63999999999999,
+        previous: 206.96999999999997,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 99.63999999999999,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 107.33,
+          },
+          {
+            x: 162,
+            y: 99.63999999999999,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonProductItemPrice",
+      title: "Amazon Product Sales",
+      metricId: "totalAmazonProductItemPrice",
+      tip: "Ordered product sales. This is what Amazon shows in the financial report",
+      services: ["amazon"],
+      type: "currency",
+      delta: -58,
+      values: {
+        current: 94.85000000000001,
+        previous: 229.65000000000003,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 94.85000000000001,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 134.8,
+          },
+          {
+            x: 162,
+            y: 94.85000000000001,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonSalesTaxes",
+      title: "Amazon Taxes",
+      metricId: "totalAmazonSalesTaxes",
+      tip: "Amount customers paid in taxes. ",
+      services: ["amazon"],
+      type: "currency",
+      delta: -60,
+      values: {
+        current: 4.79,
+        previous: 12.27,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 4.79,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 7.48,
+          },
+          {
+            x: 162,
+            y: 4.79,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonOrders",
+      title: "Amazon Orders",
+      metricId: "totalAmazonOrders",
+      tip: "Number of orders placed",
+      services: ["amazon"],
+      type: "decimal",
+      delta: -50,
+      values: {
+        current: 3,
+        previous: 6,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 3,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 3,
+          },
+          {
+            x: 162,
+            y: 3,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonItems",
+      title: "Amazon Items Sold",
+      metricId: "totalAmazonItems",
+      tip: "Number of items sold",
+      services: ["amazon"],
+      type: "decimal",
+      delta: -50,
+      values: {
+        current: 3,
+        previous: 6,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 3,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 3,
+          },
+          {
+            x: 162,
+            y: 3,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonFees",
+      title: "Amazon Estimated Fees",
+      metricId: "totalAmazonFees",
+      tip: "Estimated fees based on products purchased. This amount is an estimate and is not final until Amazon reports on actual fees",
+      services: ["amazon"],
+      type: "currency",
+      delta: -46,
+      values: {
+        current: 21.939999999999998,
+        previous: 40.769999999999996,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 21.939999999999998,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 18.83,
+          },
+          {
+            x: 162,
+            y: 21.939999999999998,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonSalesAFN",
+      title: "FBA Amazon Sales",
+      metricId: "totalAmazonSalesAFN",
+      tip: "Gross sales value sold in Amazon fulfillment network. What the customer paid for the order including shipping, taxes, discounts",
+      services: ["amazon"],
+      type: "currency",
+      delta: -36,
+      values: {
+        current: 67.52,
+        previous: 106.05,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 67.52,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 38.53,
+          },
+          {
+            x: 162,
+            y: 67.52,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonProductItemPriceAFN",
+      title: "FBA Amazon Product Sales",
+      metricId: "totalAmazonProductItemPriceAFN",
+      tip: "Ordered product sales in Amazon fulfillment network. This is what Amazon shows in the financial report",
+      services: ["amazon"],
+      type: "currency",
+      delta: -51,
+      values: {
+        current: 64.9,
+        previous: 134.8,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 64.9,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 69.9,
+          },
+          {
+            x: 162,
+            y: 64.9,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonSalesTaxesAFN",
+      title: "FBA Amazon Taxes",
+      metricId: "totalAmazonSalesTaxesAFN",
+      tip: "Amount customers paid in taxes on orders placed in Amazon fulfillment network",
+      services: ["amazon"],
+      type: "currency",
+      delta: -57,
+      values: {
+        current: 2.62,
+        previous: 6.2,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 2.62,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 3.58,
+          },
+          {
+            x: 162,
+            y: 2.62,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonOrdersAFN",
+      title: "FBA Amazon Orders",
+      metricId: "totalAmazonOrdersAFN",
+      tip: "Number of orders placed in Amazon fulfillment network",
+      services: ["amazon"],
+      type: "decimal",
+      delta: -33,
+      values: {
+        current: 2,
+        previous: 3,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 2,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 1,
+          },
+          {
+            x: 162,
+            y: 2,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonItemsAFN",
+      title: "FBA Amazon Items Sold",
+      metricId: "totalAmazonItemsAFN",
+      tip: "Number of items sold in Amazon fulfillment network",
+      services: ["amazon"],
+      type: "decimal",
+      delta: -33,
+      values: {
+        current: 2,
+        previous: 3,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 2,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 1,
+          },
+          {
+            x: 162,
+            y: 2,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonFeesAFN",
+      title: "FBA Amazon Estimated Fees",
+      metricId: "totalAmazonFeesAFN",
+      tip: "Estimated fees based on products purchased in Amazon fulfillment network. This amount is an estimate and is not final until Amazon reports on actual fees",
+      services: ["amazon"],
+      type: "currency",
+      delta: -34,
+      values: {
+        current: 17.45,
+        previous: 26.549999999999997,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 17.45,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 9.1,
+          },
+          {
+            x: 162,
+            y: 17.45,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonSalesMFN",
+      title: "FBM Amazon Sales",
+      metricId: "totalAmazonSalesMFN",
+      tip: "Gross sales value sold in Merchant fulfillment network. What the customer paid for the order including shipping, taxes, discounts",
+      services: ["amazon"],
+      type: "currency",
+      delta: -68,
+      values: {
+        current: 32.12,
+        previous: 100.91999999999999,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 32.12,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 68.8,
+          },
+          {
+            x: 162,
+            y: 32.12,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonProductItemPriceMFN",
+      title: "FBM Amazon Product Sales",
+      metricId: "totalAmazonProductItemPriceMFN",
+      tip: "Ordered product sales in Merchant fulfillment network. This is what Amazon shows in the financial report",
+      services: ["amazon"],
+      type: "currency",
+      delta: -68,
+      values: {
+        current: 29.95,
+        previous: 94.85000000000001,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 29.95,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 64.9,
+          },
+          {
+            x: 162,
+            y: 29.95,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonSalesTaxesMFN",
+      title: "FBM Amazon Taxes",
+      metricId: "totalAmazonSalesTaxesMFN",
+      tip: "Amount customers paid in taxes on orders placed in Merchant fulfillment network",
+      services: ["amazon"],
+      type: "currency",
+      delta: -64,
+      values: {
+        current: 2.17,
+        previous: 6.07,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 2.17,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 3.9000000000000004,
+          },
+          {
+            x: 162,
+            y: 2.17,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonOrdersMFN",
+      title: "FBM Amazon Orders",
+      metricId: "totalAmazonOrdersMFN",
+      tip: "Number of orders placed in Merchant fulfillment network",
+      services: ["amazon"],
+      type: "decimal",
+      delta: -66,
+      values: {
+        current: 1,
+        previous: 3,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 1,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 2,
+          },
+          {
+            x: 162,
+            y: 1,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonItemsMFN",
+      title: "FBM Amazon Items Sold",
+      metricId: "totalAmazonItemsMFN",
+      tip: "Number of items sold in Merchant fulfillment network",
+      services: ["amazon"],
+      type: "decimal",
+      delta: -66,
+      values: {
+        current: 1,
+        previous: 3,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 1,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 2,
+          },
+          {
+            x: 162,
+            y: 1,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonFeesMFN",
+      title: "FBM Amazon Estimated Fees",
+      metricId: "totalAmazonFeesMFN",
+      tip: "Estimated fees based on products purchased in Merchant fulfillment network. This amount is an estimate and is not final until Amazon reports on actual fees",
+      services: ["amazon"],
+      type: "currency",
+      delta: -68,
+      values: {
+        current: 4.49,
+        previous: 14.22,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 4.49,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 9.73,
+          },
+          {
+            x: 162,
+            y: 4.49,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonSales",
+      title: "Canceled Sales",
+      metricId: "totalCanceledAmazonSales",
+      tip: "Value of canceled orders",
+      services: ["amazon"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonProductItemPrice",
+      title: "Canceled Amazon Product Sales",
+      metricId: "totalCanceledAmazonProductItemPrice",
+      tip: "Canceled ordered product sales",
+      services: ["amazon"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonSalesTaxes",
+      title: "Canceled Taxes",
+      metricId: "totalCanceledAmazonSalesTaxes",
+      services: ["amazon"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonOrders",
+      title: "Canceled Orders",
+      metricId: "totalCanceledAmazonOrders",
+      tip: "Number of canceled orders",
+      services: ["amazon"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonItems",
+      title: "Canceled Items Sold",
+      metricId: "totalCanceledAmazonItems",
+      services: ["amazon"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonFees",
+      title: "Canceled Amazon Fees",
+      metricId: "totalCanceledAmazonFees",
+      services: ["amazon"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonSalesAFN",
+      title: "Canceled FBA Sales",
+      metricId: "totalCanceledAmazonSalesAFN",
+      tip: "Value of canceled orders from Amazon fulfillment network",
+      services: ["amazon"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonProductItemPriceAFN",
+      title: "Canceled FBA Amazon Product Sales",
+      metricId: "totalCanceledAmazonProductItemPriceAFN",
+      tip: "Canceled ordered product sales in Amazon fulfillment network",
+      services: ["amazon"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonSalesTaxesAFN",
+      title: "Canceled FBA Taxes",
+      metricId: "totalCanceledAmazonSalesTaxesAFN",
+      services: ["amazon"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonOrdersAFN",
+      title: "Canceled FBA Orders",
+      metricId: "totalCanceledAmazonOrdersAFN",
+      tip: "Number of canceled orders from Amazon fulfillment network",
+      services: ["amazon"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonItemsAFN",
+      title: "Canceled FBA Items Sold",
+      metricId: "totalCanceledAmazonItemsAFN",
+      services: ["amazon"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonFeesAFN",
+      title: "Canceled FBA Amazon Fees",
+      metricId: "totalCanceledAmazonFeesAFN",
+      services: ["amazon"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonSalesMFN",
+      title: "Canceled FBM Amazon Sales",
+      metricId: "totalCanceledAmazonSalesMFN",
+      tip: "Value of canceled orders from Merchant fulfillment network",
+      services: ["amazon"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonProductItemPriceMFN",
+      title: "Canceled FBM Amazon Product Sales",
+      metricId: "totalCanceledAmazonProductItemPriceMFN",
+      tip: "Canceled ordered product sales in Merchant fulfillment network",
+      services: ["amazon"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonSalesTaxesMFN",
+      title: "Canceled FBM Amazon Taxes",
+      metricId: "totalCanceledAmazonSalesTaxesMFN",
+      services: ["amazon"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonOrdersMFN",
+      title: "Canceled FBM Amazon Orders",
+      metricId: "totalCanceledAmazonOrdersMFN",
+      tip: "Number of canceled orders from Merchant fulfillment network",
+      services: ["amazon"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonItemsMFN",
+      title: "Canceled FBM Amazon Items Sold",
+      metricId: "totalCanceledAmazonItemsMFN",
+      services: ["amazon"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "canceledAmazonFeesMFN",
+      title: "Canceled FBM Amazon Fees",
+      metricId: "totalCanceledAmazonFeesMFN",
+      services: ["amazon"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 0,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonAds",
+      title: "Amazon Ads",
+      metricId: "amazonAds",
+      tip: "Ads = Ad spend",
+      services: ["amazon"],
+      type: "currency",
+      delta: -55,
+      values: {
+        current: 3.6100000000000003,
+        previous: 8.120000000000001,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 3.6100000000000003,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 4.51,
+          },
+          {
+            x: 162,
+            y: 3.6100000000000003,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonROAS",
+      title: "Amazon ROAS",
+      metricId: "amazonROAS",
+      tip: "Return On Ad Spend",
+      services: ["amazon"],
+      type: "decimal",
+      delta: -100,
+      values: {
+        current: 0,
+        previous: 4.304187192118226,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 7.749445676274946,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonCPC",
+      title: "Amazon CPC",
+      metricId: "amazonCPC",
+      tip: "Cost Per Click",
+      services: ["amazon"],
+      type: "currency",
+      delta: 14,
+      values: {
+        current: 0.5157142857142858,
+        previous: 0.4511111111111112,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 3.1772727272727277,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonClicks",
+      title: "Amazon Clicks",
+      metricId: "amazonClicks",
+      tip: "Total number of clicks",
+      services: ["amazon"],
+      type: "decimal",
+      delta: -61,
+      values: {
+        current: 7,
+        previous: 18,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 7,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 11,
+          },
+          {
+            x: 162,
+            y: 7,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonPurchases",
+      title: "Amazon Purchases",
+      metricId: "amazonPurchases",
+      tip: "Number of Amazon Orders attributed to Amazon advertising campaigns",
+      services: ["amazon"],
+      type: "decimal",
+      delta: -100,
+      values: {
+        current: 0,
+        previous: 1,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 1,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonTACos",
+      title: "Amazon TACoS",
+      metricId: "amazonTACos",
+      tip: "Total advertising cost of sales: (Amazon Advertising Spend / Amazon Total Revenue) x 100",
+      services: ["amazon"],
+      type: "percent",
+      delta: -7,
+      values: {
+        current: 3.623042954636693,
+        previous: 3.923273904430595,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "amazonAdsConversionValue",
+      title: "Amazon Conversion Value",
+      metricId: "amazonAdsConversionValue",
+      tip: "Amazon reported revenue attributed from your ads",
+      services: ["amazon"],
+      type: "currency",
+      delta: -100,
+      values: {
+        current: 0,
+        previous: 34.95,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 34.95,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonNetSales",
+      title: "Amazon Net Sales",
+      metricId: "amazonNetSales",
+      tip: "Gross sales - shipping - taxes + shipping discounts",
+      services: ["amazon"],
+      type: "currency",
+      delta: -51,
+      values: {
+        current: 94.84999999999998,
+        previous: 194.69999999999996,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 99.63999999999999,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 107.33,
+          },
+          {
+            x: 162,
+            y: 99.63999999999999,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonNetProfit",
+      title: "Amazon Net Profit",
+      metricId: "amazonNetProfit",
+      tip: "Net sales - Expenses (COGS, handling fees, amazon estimated fees, Amazon Ad spend)",
+      services: ["amazon"],
+      type: "currency",
+      delta: -51,
+      values: {
+        current: 69.29999999999998,
+        previous: 143.80999999999995,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 70.47999999999999,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 77.47999999999999,
+          },
+          {
+            x: 162,
+            y: 70.47999999999999,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonMER",
+      title: "Amazon MER",
+      metricId: "amazonMER",
+      tip: "Percentage of sales spent on ads",
+      services: ["amazon"],
+      type: "percent",
+      delta: -8,
+      values: {
+        current: 3.8060094886663167,
+        previous: 4.170518746789934,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 3.623042954636693,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 4.201993850740706,
+          },
+          {
+            x: 162,
+            y: 3.623042954636693,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonAOV",
+      title: "Amazon AOV",
+      metricId: "amazonAOV",
+      tip: "Average Order Value. Total Sales / Number of Orders > $0",
+      services: ["amazon"],
+      type: "currency",
+      delta: -3,
+      values: {
+        current: 33.21333333333333,
+        previous: 34.495,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 0,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 107.33,
+          },
+          {
+            x: 162,
+            y: 0,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonCPA",
+      title: "Amazon CPA",
+      metricId: "amazonCPA",
+      tip: "Cost Per Acquisition. Ad Spend / Orders > $0",
+      services: ["amazon"],
+      type: "currency",
+      delta: -11,
+      values: {
+        current: 1.2033333333333334,
+        previous: 1.3533333333333335,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 1.2033333333333334,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 1.5033333333333332,
+          },
+          {
+            x: 162,
+            y: 1.2033333333333334,
+          },
+        ],
+      },
+    },
+    {
+      id: "amazonExpenses",
+      title: "Amazon Expenses",
+      metricId: "amazonExpenses",
+      tip: "Amazon estimated fees + COGs + Handling fees + Ad Spend ",
+      services: ["amazon"],
+      type: "currency",
+      delta: -49,
+      values: {
+        current: 25.549999999999997,
+        previous: 50.89,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 25.549999999999997,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 25.339999999999996,
+          },
+          {
+            x: 162,
+            y: 25.549999999999997,
+          },
+        ],
+      },
+    },
+    {
+      id: "blendedSales",
+      title: "Blended Sales",
+      metricId: "blendedSales",
+      tip: "Shopify sales + Amazon sales",
+      services: ["amazon"],
+      type: "currency",
+      delta: -60,
+      values: {
+        current: 572.73,
+        previous: 1466.39,
+      },
+      charts: {
+        current: [
+          {
+            x: 162,
+            y: 572.73,
+          },
+          {
+            x: 163,
+            y: 0,
+          },
+        ],
+        previous: [
+          {
+            x: 161,
+            y: 893.6600000000001,
+          },
+          {
+            x: 162,
+            y: 572.73,
+          },
+        ],
+      },
+    },
+    {
+      id: "pixelPurchases",
+      title: "Pixel Purchases",
+      metricId: "pixelPurchases",
+      services: ["pixel"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "pixelUniqueAtc",
+      title: "Pixel Unique Add to Carts",
+      metricId: "pixelUniqueAtc",
+      services: ["pixel"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "pixelUniqueVisitors",
+      title: "Pixel Unique Visitors",
+      metricId: "pixelUniqueVisitors",
+      services: ["pixel"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "pixelConversionRate",
+      title: "Pixel Conversion Rate",
+      metricId: "pixelConversionRate",
+      services: ["pixel"],
+      type: "percent",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "twitterAds",
+      title: "Twitter Ads",
+      metricId: "twitter_spend",
+      services: ["twitter-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "twitterRoas",
+      title: "Twitter ROAS",
+      metricId: "twitterRoas",
+      tip: "Return on Ad Spend",
+      services: ["twitter-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "twitterImpressions",
+      title: "Twitter Impressions",
+      metricId: "twitterImpressions",
+      services: ["twitter-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "twitterCpm",
+      title: "Twitter CPM",
+      metricId: "twitterCpm",
+      tip: "Cost Per 1000 Impressions",
+      services: ["twitter-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "twitterCpa",
+      title: "Twitter CPA",
+      metricId: "twitterCpa",
+      tip: "Cost Per Acquisition",
+      services: ["twitter-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "twitterPurchases",
+      title: "Twitter Purchases",
+      metricId: "twitterPurchases",
+      services: ["twitter-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "twitterConversionValue",
+      title: "Twitter Conversion Value",
+      metricId: "twitterConversionValue",
+      services: ["twitter-ads"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "twitterEngagements",
+      title: "Twitter Engagements",
+      metricId: "twitterEngagements",
+      services: ["twitter-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "twitterFollows",
+      title: "Twitter Follows",
+      metricId: "twitterFollows",
+      services: ["twitter-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "twitterClicks",
+      title: "Twitter Clicks",
+      metricId: "twitterClicks",
+      services: ["twitter-ads"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "bingAdSpend",
+      title: "Microsoft Ads Spend",
+      metricId: "bingAdSpend",
+      tip: "Microsoft Ad Spend",
+      services: ["bing"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "bingImpressions",
+      title: "Microsoft Ads Impressions",
+      metricId: "bingImpressions",
+      services: ["bing"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "bingClicks",
+      title: "Microsoft Ads Clicks",
+      metricId: "bingClicks",
+      services: ["bing"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "bingRoas",
+      title: "Microsoft Ads ROAS",
+      metricId: "bingRoas",
+      tip: "Return on Ad Spend",
+      services: ["bing"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "bingConversions",
+      title: "Microsoft Ads Conversions",
+      metricId: "bingConversions",
+      services: ["bing"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "bingConversionValue",
+      title: "Microsoft Ads Conversion Value",
+      metricId: "bingConversionValue",
+      services: ["bing"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "bingCtr",
+      title: "Microsoft Ads CTR",
+      metricId: "bingCtr",
+      tip: "Click Through Rate. Percentage of people clicking the ad",
+      services: ["bing"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "bingCpm",
+      title: "Microsoft Ads CPM",
+      metricId: "bingCpm",
+      tip: "Cost Per 1000 Impressions",
+      services: ["bing"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "bingCpa",
+      title: "Microsoft Ads CPA",
+      metricId: "bingCpa",
+      tip: "Cost Per Acquisition",
+      services: ["bing"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "cashTotal",
+      title: "Finance Cash Total",
+      metricId: "cashTotal",
+      tip: "The total amount of cash across all your business bank accounts at the end of this time period.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 73,
+            y: "00",
+          },
+        ],
+        previous: [
+          {
+            x: 73,
+            y: "00",
+          },
+        ],
+      },
+    },
+    {
+      id: "creditTotal",
+      title: "Finance Credit Total",
+      metricId: "creditTotal",
+      tip: "The total outstanding balance across all your business credit cards at the end of this time period.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "moneyIn",
+      title: "Money In",
+      metricId: "moneyInSum",
+      tip: "The total amount of cash that came into your business bank account(s) during this time period.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "moneyOut",
+      title: "Money Out",
+      metricId: "moneyOutSum",
+      tip: "The total amount of cash that left your business bank account(s) during this time period.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "beginningCash",
+      title: "Beginning Cash",
+      metricId: "beginningCash",
+      tip: "The total amount of cash you had in your business bank account(s) at the end of this time period.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "endingCash",
+      title: "Ending Cash",
+      metricId: "endingCash",
+      tip: "The total amount of cash you had in your business bank account(s) at the beginning of this time period.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "totalChange",
+      title: "Total Change",
+      metricId: "totalChange",
+      tip: "The difference between the amount of cash you had in your business bank account(s) at the beginning and end of this period.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "inventoryCost",
+      title: "Cost of Inventory in Stock",
+      metricId: "totalInventoryCost",
+      tip: "Cost of Units in Stock",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 144649.27000000002,
+        previous: 144649.27000000002,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "inventoryValue",
+      title: "Value of Inventory in Stock",
+      metricId: "totalInventoryValue",
+      tip: "Value of Units in Stock",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 794724.76,
+        previous: 794724.76,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "cashBalance",
+      title: "Cash",
+      metricId: "cashTotal",
+      tip: "The total amount of cash you had in your business bank account(s) at the end of this time period.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [
+          {
+            x: 73,
+            y: "00",
+          },
+        ],
+        previous: [
+          {
+            x: 73,
+            y: "00",
+          },
+        ],
+      },
+    },
+    {
+      id: "creditBalance",
+      title: "Credit Card Debt",
+      metricId: "creditTotal",
+      tip: "The total amount of credit card debt you had at the end of this time period.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "invoicesTotal",
+      title: "Invoices Total",
+      metricId: "invoicesTotal",
+      tip: "This represents the total amount that you need to pay across all your invoices.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "invoices30Total",
+      title: "Total Due within 30 Days",
+      metricId: "invoices30Total",
+      tip: "This represents the total amount that you need to pay across all your invoices between now and 30 days from now.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "invoices60Total",
+      title: "Total Due within 60 Days",
+      metricId: "invoices60Total",
+      tip: "This represents the total amount that you need to pay across all your invoices between now and 60 days from now.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "invoices90Total",
+      title: "Total Due within 90 Days",
+      metricId: "invoices90Total",
+      tip: "This represents the total amount that you need to pay across all your invoices between now and 90 days from now.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "ebitda",
+      title: "EBITDA",
+      metricId: "ebitda",
+      tip: "Earnings before interest, taxes, depreciation and amortization.",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "burnRate",
+      title: "Burn Rate",
+      metricId: "burnRate",
+      tip: "The amount of money your business lost during this time period, net of all expenses",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: "N/A",
+        previous: "N/A",
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "runway",
+      title: "Runway (Days)",
+      metricId: "runway",
+      tip: "The amount of time you have before your business run out of cash (assuming no change in funding or business performance).",
+      services: ["finance"],
+      type: "decimal",
+      delta: 0,
+      values: {
+        current: null,
+        previous: null,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "valuation",
+      title: "Valuation",
+      metricId: "valuation",
+      tip: "The value of your business.  Click this tile to edit the formula for valuation.",
+      services: ["finance"],
+      type: "currency",
+      delta: -62,
+      values: {
+        current: 863389.25,
+        previous: 2298441.5,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "salesPerDay",
+      title: "Average Daily Sales",
+      metricId: "salesPerDay",
+      tip: "The amount of revenue your business generates on a typical day.",
+      services: ["finance"],
+      type: "currency",
+      delta: -62,
+      values: {
+        current: 473.09000000000003,
+        previous: 1259.42,
+      },
+      charts: {
+        current: [],
+        previous: [],
+      },
+    },
+    {
+      id: "invoicesTotalNegative",
+      title: "Invoices Total",
+      metricId: "invoicesTotalNegative",
+      tip: "This represents the total amount that you need to pay across all your invoices",
+      services: ["finance"],
+      type: "currency",
+      delta: 0,
+      values: {
+        current: 0,
+        previous: 0,
+      },
+      charts: {
+        current: [],
+        previous: [],
       },
     },
   ],
-  calculatedStats: [
-    {
-      totalSales: 2610.71,
-      newCustomerSales: 1085.24,
-      netSales: 2610.71,
-      rcRevenue: 1525.47,
-      totalPaymentGatewayCosts: 57.260000000000005,
-      totalProductCosts: 506.72,
-      totalHandlingFees: 0,
-      totalCustomSpends: 0,
-      totalInventoryItems: 858545,
-      totalInventoryItemsMissing: 1113195,
-      totalInventoryCost: 636140.65,
-      totalInventoryValue: -11826279.88,
-      shopifyAov: 54.38979166666667,
-      averageGaRevenuePerTransaction: 54.38979166666667,
-      fb_ads_spend: 1044.08,
-      ga_adCost: 64.67685900000001,
-      googleAllCpa: 64.67685900000001,
-      googleBounceRate: 70.38183694530444,
-      googleConversionValue: 79.97,
-      totalSnapchatSpend: 0,
-      totalSnapchatRoas: 0,
-      snapchatImpressions: 0,
-      snapchat_swipes: 0,
-      snapchatCpm: 0,
-      snapchatCpa: 0,
-      totalSnapchatConversionPurchasesValue: 0,
-      averageGaTransactionsPerSession: 4.953560371517028,
-      totalGoogleAnalyticsSessions: 969,
-      totalOrders: 48,
-      totalNetProfit: 407.28314099999994,
-      cashTurnover: 914.0031409999999,
-      totalNetMargin: 15.600474238808602,
-      totalCpa: 23.099101229166664,
-      totalRevenuePerSession: 2.694231166150671,
-      totalRefunds: 0,
-      fb_ads_purchase_roas: 1.2920753198988586,
-      ga_ROAS: 1.2364546027196526,
-      totalGoogleAdsCtr: 0.825847580411475,
-      totalGoogleAdsCpm: 9.370741669081427,
-      googleCpc: 1.1346817368421054,
-      totalGoogleAdsClicks: 57,
-      totalGoogleAdsImpressions: 6902,
-      ga_transactions_adGroup: 4,
-      ga_all_transactionsRevenue_adGroup: 371.30000000000007,
-      ga_all_transactions_adGroup: 1,
-      totalAllRoas: 5.74084774277613,
-      googleCpa: 16.169214750000002,
-      averageFacebookCpc: 1.0990315789473684,
-      facebookViewThrough: 0,
-      facebookViewThroughRoas: 0,
-      facebookViewThroughCpa: 0,
-      averageFacebookCpm: 25.06313313169139,
-      facebookCtr: 2.280474338662442,
-      facebookCostPerOutboundClick: 2.4682742316784867,
-      facebookConversionValue: 1349.0300000000002,
-      facebookWebConversionValue: 1349.0300000000002,
-      facebookMetaConversionValue: 0,
-      facebookRevenuePerClick: 3.18919621749409,
-      facebookCpa: 52.20399999999999,
-      facebookPurchases: 20,
-      facebookMetaPurchases: 0,
-      facebookWebPurchases: 20,
-      newCustomersCpa: 69.29730368749999,
-      totalKlaviyoPlacedOrderSalesPercent: 8.916348426290167,
-      totalKlaviyoPlacedOrderSalesPercentFlows: 8.916348426290167,
-      totalKlaviyoPlacedOrderSalesPercentCampaigns: 0,
-      klaviyoEmailOpenRate: 100,
-      totalKlaviyoUnsubscribed: 3,
-      totalKlaviyoPlacedOrderTotalPriceFlows: 232.78,
-      totalKlaviyoPlacedOrderTotalPriceCampaigns: 0,
-      totalKlaviyoSubscribedToList: 10,
-      totalKlaviyoClickedEmail: 17,
-      totalKlaviyoReceivedEmail: 484,
-      totalKlaviyoClickedSms: 0,
-      klaviyoCVR: 0.09917355371900827,
-      klaviyoRevenuePerEmail: 5.394028925619835,
-      totalKlaviyoNetNewSubscribers: 7,
-      klaviyoPlacedOrderSales: 232.78,
-      attentivePlacedOrderSales: 0,
-      totalAttentivePlacedOrder: 0,
-      totalAttentiveNewSubscribed: 0,
-      totalAttentiveNetNewsubscribers: 0,
-      totalAttentiveUnsubscribed: 0,
-      totalAttentivePlacedOrderTotalPriceFlows: 0,
-      totalAttentivePlacedOrderSalesPercentFlows: 0,
-      totalAttentivePlacedOrderTotalPriceCampaigns: 0,
-      totalAttentivePlacedOrderSalesPercentCampaigns: 0,
-      tiktok_spend: 0,
-      tiktok_complete_payment_roas: 0,
-      tiktokImpressions: 0,
-      averageTiktokCpm: 0,
-      averageTiktokCpc: 0,
-      tiktokCtr: 0,
-      tiktokCpa: 0,
-      tiktokConversionValue: 0,
-      tiktokPurchases: 0,
-      uniqueCustomerLifetimeValue: 54.38979166666667,
-      customerFrequency: 1,
-      ltvCpa: 2.3546280492502465,
-      mer: 42.46955268873218,
-      totalReturns: 0,
-      totalTaxes: 146.69,
-      newCustomersPercent: 33.333333333333336,
-      oldCustomersPercent: 66.66666666666666,
-      newCustomersOrders: 16,
-      getUniqueCustomerCount: 48,
-      totalShippingCosts: 384,
-      totalGoogleAnalyticsUsers: 966,
-      totalGorgiasTicketsCreated: 0,
-      totalGorgiasTicketsReplied: 0,
-      averageGorgiasResponseTime: 0,
-      averageGorgiasResolutionTime: 0,
-      totalVariantsSold: 82,
-      blendedAds: 1108.7568589999998,
-      totalRoas: 2.35,
-      newCustomersRoas: "0.98",
-      blendedAttributedRoas: "1.29",
-      poas: 1.3673331422430461,
-      shopifyCpa: 23.099101229166664,
-      pinterestSpend: 0,
-      pinterestRoas: 0,
-      pinterestCpc: 0,
-      pinterestCpm: 0,
-      pinterestConversionValue: 0,
-      pinterestPurchases: 0,
-      pinterestImpressions: 0,
-      pinterestCtr: 0,
-      totalBenchmarksCPM: 0,
-      totalBenchmarksCPC: 0,
-      totalBenchmarksCTR: 0,
-      totalBenchmarksNCROAS: 0,
-      totalBenchmarksNCPA: 0,
-      totalBenchmarksBlendedROAS: 0,
-      totalBenchmarksTotalSpendAvg: 0,
-      totalBenchmarksNewCustomersAvg: 0,
-      totalBenchmarksSize: 0,
-      totalBenchmarksOrdersAvg: 0,
-      totalBenchmarksNewCustomersTotalPriceAvg: 0,
-      totalBenchmarksTotalPriceUSDAvg: 0,
-      totalBenchmarksFBAdsSpendAvg: 0,
-      totalBenchmarksFBAdsImpressionsAvg: 0,
-      totalBenchmarksFBAdsClicksAvg: 0,
-      benchmarksFacebookRoas: 0,
-      benchmarksGoogleRoas: 0,
-      totalBenchmarksCPCGoogle: 0,
-      totalBenchmarksCPMGoogle: 0,
-      totalBenchmarksCTRGoogle: 0,
-      sources: {},
-      totalFacebookEnq: 0,
-      totalGoogleEnq: 0,
-      totalSnapchatEnq: 0,
-      totalTiktokEnq: 0,
-      totalPinterestEnq: 0,
-      totalInstagramEnq: 0,
-      responsesPrecent: 0,
-      totalFacebookKno: 60,
-      totalGoogleKno: 0,
-      totalSnapchatKno: 10,
-      totalTiktokKno: 10,
-      totalPinterestKno: 0,
-      totalInstagramKno: 10,
-      responsesPrecentKno: 20.833333333333336,
-      rechargeNewSub: 0,
-      rechargeTotalNewSubscriptions: 0,
-      rechargeCanceledSub: 0,
-      rechargeExpiredSub: 0,
-      rechargeTotalActiveSubsribers: 0,
-      rechargeTotalNetSales: 0,
-      rechargeItemsCount: 0,
-      rechargeTransactionCount: 0,
-      rechargeChurnRate: 0,
-      rechargeMRR: 0,
-      rechargeTotalActiveCustomers: 0,
-      rechargeTotalChurnedCustomers: 0,
-      facebookLikes: 0,
-      facebookComments: 0,
-      facebookShares: 0,
-      facebookPosts: 0,
-      facebookFollowers: 0,
-      facebookSocialImpressions: 0,
-      facebookSocialAvg: 0,
-      facebookReach: 0,
-      facebookProfileView: 0,
-      facebookWebsiteClicks: 0,
-      instagramLikes: 0,
-      instagramComments: 0,
-      instagramShares: 0,
-      instagramPosts: 0,
-      instagramFollowers: 0,
-      instagramImpressions: 0,
-      instagramAvg: 0,
-      instagramAvgImpressionsFollowers: 0,
-      instagramReach: 0,
-      instagramProfileView: 0,
-      instagramWebsiteClicks: 0,
-      influencerConversionValue: 0,
-      influencerSpend: 0,
-      influencerRoas: 0,
-      influencerPurchases: 0,
-      influencerNcPurchases: 0,
-      influencerNcConversionValue: 0,
-      totalCustomAdSpends: 0,
-      totalAmazonSales: 0,
-      totalAmazonProductItemPrice: 0,
-      totalAmazonSalesTaxes: 0,
-      totalAmazonOrders: 0,
-      totalAmazonItems: 0,
-      totalAmazonFees: 0,
-      totalAmazonSalesAFN: 0,
-      totalAmazonProductItemPriceAFN: 0,
-      totalAmazonSalesTaxesAFN: 0,
-      totalAmazonOrdersAFN: 0,
-      totalAmazonItemsAFN: 0,
-      totalAmazonFeesAFN: 0,
-      totalAmazonSalesMFN: 0,
-      totalAmazonProductItemPriceMFN: 0,
-      totalAmazonSalesTaxesMFN: 0,
-      totalAmazonOrdersMFN: 0,
-      totalAmazonItemsMFN: 0,
-      totalAmazonFeesMFN: 0,
-      totalCanceledAmazonSales: 0,
-      totalCanceledAmazonProductItemPrice: 0,
-      totalCanceledAmazonSalesTaxes: 0,
-      totalCanceledAmazonOrders: 0,
-      totalCanceledAmazonItems: 0,
-      totalCanceledAmazonFees: 0,
-      totalCanceledAmazonSalesAFN: 0,
-      totalCanceledAmazonProductItemPriceAFN: 0,
-      totalCanceledAmazonSalesTaxesAFN: 0,
-      totalCanceledAmazonOrdersAFN: 0,
-      totalCanceledAmazonItemsAFN: 0,
-      totalCanceledAmazonFeesAFN: 0,
-      totalCanceledAmazonSalesMFN: 0,
-      totalCanceledAmazonProductItemPriceMFN: 0,
-      totalCanceledAmazonSalesTaxesMFN: 0,
-      totalCanceledAmazonOrdersMFN: 0,
-      totalCanceledAmazonItemsMFN: 0,
-      totalCanceledAmazonFeesMFN: 0,
-      amazonAds: 0,
-      amazonROAS: 0,
-      amazonCPC: 0,
-      amazonClicks: 0,
-      amazonPurchases: 0,
-      amazonTACos: 0,
-      amazonAdsConversionValue: 0,
-      amazonNetSales: 0,
-      amazonNetProfit: 0,
-      amazonMER: 0,
-      amazonAOV: 0,
-      amazonCPA: 0,
-      amazonExpenses: 0,
-      blendedSales: 2610.71,
-      pixelPurchases: 0,
-      pixelUniqueAtc: 0,
-      pixelUniqueVisitors: 0,
-      pixelConversionRate: 0,
-      twitter_spend: 0,
-      twitterRoas: 0,
-      twitterImpressions: 0,
-      twitterCpm: 0,
-      twitterCpa: 0,
-      twitterPurchases: 0,
-      twitterConversionValue: 0,
-      twitterEngagements: 0,
-      twitterFollows: 0,
-      twitterClicks: 0,
-      bingAdSpend: 0,
-      bingImpressions: 0,
-      bingClicks: 0,
-      bingRoas: 0,
-      bingConversions: 0,
-      bingConversionValue: 0,
-      bingCtr: 0,
-      bingCpm: 0,
-      bingCpa: 0,
-      cashTotal: 0,
-      creditTotal: 0,
-      moneyInSum: 0,
-      moneyOutSum: 0,
-      beginningCash: 0,
-      endingCash: 0,
-      totalChange: 0,
-      invoicesTotal: 0,
-      invoices30Total: 0,
-      invoices60Total: 0,
-      invoices90Total: 0,
-      ebitda: 0,
-      burnRate: 0,
-      runway: 0,
-      valuation: 0,
-      salesPerDay: 2610.71,
-      invoicesTotalNegative: 0,
-      order_tags: {},
-      customMetrics: {
-        "6L38bwHBRvWKGMklbEpT": 2.3546280492502465,
-        I41lKG4ACkBr3f3ST4N2: 18.556666666666665,
-        OPRT7ak1z1YyzrgPSWWx: 87.85397035416665,
-        QhG75Cv0JLXxCZIkW3SM: 41.65576789583333,
-        X7ANuQQK846E0PqFxxFe: 12.734023770833339,
-        XDlpY3ObEXkBNtESCGTZ: 10.556666666666667,
-        j9lMsp6olUZohex2yXKt: 1108.7568589999998,
-        nmNtVOCg6TvqSGhrUoOi: -33.46417868749998,
-        ttwm1nDHQ4iluWhgah0m: 67.91135761374998,
-        uBcU247PLBecmLdSUV4w: 54.38979166666667,
-        uauOrxRIDEQBBJJkFHrW: 8,
-      },
-    },
-    {
-      totalSales: 2484.31,
-      newCustomerSales: 930.96,
-      netSales: 2484.31,
-      rcRevenue: 1553.35,
-      totalPaymentGatewayCosts: 37.019999999999996,
-      totalProductCosts: 370.90999999999997,
-      totalHandlingFees: 0,
-      totalCustomSpends: 0,
-      totalInventoryItems: 858545,
-      totalInventoryItemsMissing: 1113195,
-      totalInventoryCost: 636140.65,
-      totalInventoryValue: -11826279.88,
-      shopifyAov: 59.150238095238095,
-      averageGaRevenuePerTransaction: 59.150238095238095,
-      fb_ads_spend: 849.09,
-      ga_adCost: 52.606761000000006,
-      googleAllCpa: 0,
-      googleBounceRate: 72.25647348951911,
-      googleConversionValue: 0,
-      totalSnapchatSpend: 0,
-      totalSnapchatRoas: 0,
-      snapchatImpressions: 0,
-      snapchat_swipes: 0,
-      snapchatCpm: 0,
-      snapchatCpa: 0,
-      totalSnapchatConversionPurchasesValue: 0,
-      averageGaTransactionsPerSession: 5.178791615289765,
-      totalGoogleAnalyticsSessions: 811,
-      totalOrders: 42,
-      totalNetProfit: 716.883239,
-      cashTurnover: 1087.7932389999999,
-      totalNetMargin: 28.85643253056182,
-      totalCpa: 21.4689705,
-      totalRevenuePerSession: 3.0632675709001234,
-      totalRefunds: 0,
-      fb_ads_purchase_roas: 0.653817616507084,
-      ga_ROAS: 0,
-      totalGoogleAdsCtr: 0.7498197548666186,
-      totalGoogleAdsCpm: 7.585690122566692,
-      googleCpc: 1.0116684807692309,
-      totalGoogleAdsClicks: 52,
-      totalGoogleAdsImpressions: 6935,
-      ga_transactions_adGroup: 0,
-      ga_all_transactionsRevenue_adGroup: 0,
-      ga_all_transactions_adGroup: 0,
-      totalAllRoas: 0,
-      googleCpa: 0,
-      averageFacebookCpc: 1.2672985074626866,
-      facebookViewThrough: 0,
-      facebookViewThroughRoas: 0,
-      facebookViewThroughCpa: 0,
-      averageFacebookCpm: 26.89973071439886,
-      facebookCtr: 2.1226041501663238,
-      facebookCostPerOutboundClick: 2.6369254658385093,
-      facebookConversionValue: 555.15,
-      facebookWebConversionValue: 555.15,
-      facebookMetaConversionValue: 0,
-      facebookRevenuePerClick: 1.7240683229813665,
-      facebookCpa: 121.29857142857144,
-      facebookPurchases: 7,
-      facebookMetaPurchases: 0,
-      facebookWebPurchases: 7,
-      newCustomersCpa: 81.97243281818182,
-      totalKlaviyoPlacedOrderSalesPercent: 8.066223619435577,
-      totalKlaviyoPlacedOrderSalesPercentFlows: 8.066223619435577,
-      totalKlaviyoPlacedOrderSalesPercentCampaigns: 0,
-      klaviyoEmailOpenRate: 100,
-      totalKlaviyoUnsubscribed: 1,
-      totalKlaviyoPlacedOrderTotalPriceFlows: 200.39,
-      totalKlaviyoPlacedOrderTotalPriceCampaigns: 0,
-      totalKlaviyoSubscribedToList: 6,
-      totalKlaviyoClickedEmail: 13,
-      totalKlaviyoReceivedEmail: 552,
-      totalKlaviyoClickedSms: 0,
-      klaviyoCVR: 0.07608695652173914,
-      klaviyoRevenuePerEmail: 4.500561594202899,
-      totalKlaviyoNetNewSubscribers: 5,
-      klaviyoPlacedOrderSales: 200.39,
-      attentivePlacedOrderSales: 0,
-      totalAttentivePlacedOrder: 0,
-      totalAttentiveNewSubscribed: 0,
-      totalAttentiveNetNewsubscribers: 0,
-      totalAttentiveUnsubscribed: 0,
-      totalAttentivePlacedOrderTotalPriceFlows: 0,
-      totalAttentivePlacedOrderSalesPercentFlows: 0,
-      totalAttentivePlacedOrderTotalPriceCampaigns: 0,
-      totalAttentivePlacedOrderSalesPercentCampaigns: 0,
-      tiktok_spend: 0,
-      tiktok_complete_payment_roas: 0,
-      tiktokImpressions: 0,
-      averageTiktokCpm: 0,
-      averageTiktokCpc: 0,
-      tiktokCtr: 0,
-      tiktokCpa: 0,
-      tiktokConversionValue: 0,
-      tiktokPurchases: 0,
-      uniqueCustomerLifetimeValue: 7.350029585798817,
-      customerFrequency: 0.1242603550295858,
-      ltvCpa: 0.34235594043965994,
-      mer: 36.29566201480492,
-      totalReturns: 0,
-      totalTaxes: 121.80000000000001,
-      newCustomersPercent: 26.19047619047619,
-      oldCustomersPercent: 73.80952380952381,
-      newCustomersOrders: 11,
-      getUniqueCustomerCount: 338,
-      totalShippingCosts: 336,
-      totalGoogleAnalyticsUsers: 806,
-      totalGorgiasTicketsCreated: 0,
-      totalGorgiasTicketsReplied: 0,
-      averageGorgiasResponseTime: 0,
-      averageGorgiasResolutionTime: 0,
-      totalVariantsSold: 79,
-      blendedAds: 901.696761,
-      totalRoas: 2.76,
-      newCustomersRoas: "1.03",
-      blendedAttributedRoas: "0.62",
-      poas: 1.7950380549276477,
-      shopifyCpa: 21.4689705,
-      pinterestSpend: 0,
-      pinterestRoas: 0,
-      pinterestCpc: 0,
-      pinterestCpm: 0,
-      pinterestConversionValue: 0,
-      pinterestPurchases: 0,
-      pinterestImpressions: 0,
-      pinterestCtr: 0,
-      totalBenchmarksCPM: 0,
-      totalBenchmarksCPC: 0,
-      totalBenchmarksCTR: 0,
-      totalBenchmarksNCROAS: 0,
-      totalBenchmarksNCPA: 0,
-      totalBenchmarksBlendedROAS: 0,
-      totalBenchmarksTotalSpendAvg: 0,
-      totalBenchmarksNewCustomersAvg: 0,
-      totalBenchmarksSize: 0,
-      totalBenchmarksOrdersAvg: 0,
-      totalBenchmarksNewCustomersTotalPriceAvg: 0,
-      totalBenchmarksTotalPriceUSDAvg: 0,
-      totalBenchmarksFBAdsSpendAvg: 0,
-      totalBenchmarksFBAdsImpressionsAvg: 0,
-      totalBenchmarksFBAdsClicksAvg: 0,
-      benchmarksFacebookRoas: 0,
-      benchmarksGoogleRoas: 0,
-      totalBenchmarksCPCGoogle: 0,
-      totalBenchmarksCPMGoogle: 0,
-      totalBenchmarksCTRGoogle: 0,
-      sources: {},
-      totalFacebookEnq: 0,
-      totalGoogleEnq: 0,
-      totalSnapchatEnq: 0,
-      totalTiktokEnq: 0,
-      totalPinterestEnq: 0,
-      totalInstagramEnq: 0,
-      responsesPrecent: 0,
-      totalFacebookKno: 66.66666666666666,
-      totalGoogleKno: 16.666666666666664,
-      totalSnapchatKno: 0,
-      totalTiktokKno: 0,
-      totalPinterestKno: 0,
-      totalInstagramKno: 16.666666666666664,
-      responsesPrecentKno: 14.285714285714285,
-      rechargeNewSub: 0,
-      rechargeTotalNewSubscriptions: 0,
-      rechargeCanceledSub: 0,
-      rechargeExpiredSub: 0,
-      rechargeTotalActiveSubsribers: 0,
-      rechargeTotalNetSales: 0,
-      rechargeItemsCount: 0,
-      rechargeTransactionCount: 0,
-      rechargeChurnRate: 0,
-      rechargeMRR: 0,
-      rechargeTotalActiveCustomers: 0,
-      rechargeTotalChurnedCustomers: 0,
-      facebookLikes: 0,
-      facebookComments: 0,
-      facebookShares: 0,
-      facebookPosts: 0,
-      facebookFollowers: 0,
-      facebookSocialImpressions: 0,
-      facebookSocialAvg: 0,
-      facebookReach: 0,
-      facebookProfileView: 0,
-      facebookWebsiteClicks: 0,
-      instagramLikes: 0,
-      instagramComments: 0,
-      instagramShares: 0,
-      instagramPosts: 0,
-      instagramFollowers: 0,
-      instagramImpressions: 0,
-      instagramAvg: 0,
-      instagramAvgImpressionsFollowers: 0,
-      instagramReach: 0,
-      instagramProfileView: 0,
-      instagramWebsiteClicks: 0,
-      influencerConversionValue: 28.40999984741211,
-      influencerSpend: 0,
-      influencerRoas: 0,
-      influencerPurchases: 1,
-      influencerNcPurchases: 0,
-      influencerNcConversionValue: 0,
-      totalCustomAdSpends: 0,
-      totalAmazonSales: 0,
-      totalAmazonProductItemPrice: 0,
-      totalAmazonSalesTaxes: 0,
-      totalAmazonOrders: 0,
-      totalAmazonItems: 0,
-      totalAmazonFees: 0,
-      totalAmazonSalesAFN: 0,
-      totalAmazonProductItemPriceAFN: 0,
-      totalAmazonSalesTaxesAFN: 0,
-      totalAmazonOrdersAFN: 0,
-      totalAmazonItemsAFN: 0,
-      totalAmazonFeesAFN: 0,
-      totalAmazonSalesMFN: 0,
-      totalAmazonProductItemPriceMFN: 0,
-      totalAmazonSalesTaxesMFN: 0,
-      totalAmazonOrdersMFN: 0,
-      totalAmazonItemsMFN: 0,
-      totalAmazonFeesMFN: 0,
-      totalCanceledAmazonSales: 0,
-      totalCanceledAmazonProductItemPrice: 0,
-      totalCanceledAmazonSalesTaxes: 0,
-      totalCanceledAmazonOrders: 0,
-      totalCanceledAmazonItems: 0,
-      totalCanceledAmazonFees: 0,
-      totalCanceledAmazonSalesAFN: 0,
-      totalCanceledAmazonProductItemPriceAFN: 0,
-      totalCanceledAmazonSalesTaxesAFN: 0,
-      totalCanceledAmazonOrdersAFN: 0,
-      totalCanceledAmazonItemsAFN: 0,
-      totalCanceledAmazonFeesAFN: 0,
-      totalCanceledAmazonSalesMFN: 0,
-      totalCanceledAmazonProductItemPriceMFN: 0,
-      totalCanceledAmazonSalesTaxesMFN: 0,
-      totalCanceledAmazonOrdersMFN: 0,
-      totalCanceledAmazonItemsMFN: 0,
-      totalCanceledAmazonFeesMFN: 0,
-      amazonAds: 0,
-      amazonROAS: 0,
-      amazonCPC: 0,
-      amazonClicks: 0,
-      amazonPurchases: 0,
-      amazonTACos: 0,
-      amazonAdsConversionValue: 0,
-      amazonNetSales: 0,
-      amazonNetProfit: 0,
-      amazonMER: 0,
-      amazonAOV: 0,
-      amazonCPA: 0,
-      amazonExpenses: 0,
-      blendedSales: 2484.31,
-      pixelPurchases: 0,
-      pixelUniqueAtc: 0,
-      pixelUniqueVisitors: 0,
-      pixelConversionRate: 0,
-      twitter_spend: 0,
-      twitterRoas: 0,
-      twitterImpressions: 0,
-      twitterCpm: 0,
-      twitterCpa: 0,
-      twitterPurchases: 0,
-      twitterConversionValue: 0,
-      twitterEngagements: 0,
-      twitterFollows: 0,
-      twitterClicks: 0,
-      bingAdSpend: 0,
-      bingImpressions: 0,
-      bingClicks: 0,
-      bingRoas: 0,
-      bingConversions: 0,
-      bingConversionValue: 0,
-      bingCtr: 0,
-      bingCpm: 0,
-      bingCpa: 0,
-      cashTotal: 0,
-      creditTotal: 0,
-      moneyInSum: 0,
-      moneyOutSum: 0,
-      beginningCash: 0,
-      endingCash: 0,
-      totalChange: 0,
-      invoicesTotal: 0,
-      invoices30Total: 0,
-      invoices60Total: 0,
-      invoices90Total: 0,
-      ebitda: 0,
-      burnRate: 0,
-      runway: 0,
-      valuation: 0,
-      salesPerDay: 2484.31,
-      invoicesTotalNegative: 0,
-      order_tags: {},
-      customMetrics: {
-        "6L38bwHBRvWKGMklbEpT": 2.7551501873477395,
-        I41lKG4ACkBr3f3ST4N2: 16.831190476190475,
-        OPRT7ak1z1YyzrgPSWWx: 98.80362329437229,
-        QhG75Cv0JLXxCZIkW3SM: 38.300160976190476,
-        X7ANuQQK846E0PqFxxFe: 20.85007711904762,
-        XDlpY3ObEXkBNtESCGTZ: 8.831190476190475,
-        j9lMsp6olUZohex2yXKt: 901.696761,
-        nmNtVOCg6TvqSGhrUoOi: -39.65338519913419,
-        ttwm1nDHQ4iluWhgah0m: 84.43160580272728,
-        uBcU247PLBecmLdSUV4w: 59.150238095238095,
-        uauOrxRIDEQBBJJkFHrW: 8,
-      },
-    },
-  ],
-  previousPeriodRawStats: {
-    stats: [
-      {
-        start: "2023-06-11T00:00:00-04:00",
-        end: "2023-06-11T23:59:59-04:00",
-        hours: {
-          "0": {
-            ga_transactions: 30,
-            ga_transactionRevenue: 1668.95,
-            ga_users: 189,
-            ga_bounces: 140,
-            ga_sessions: 192,
-          },
-          "1": {
-            ga_transactions: 2,
-            ga_transactionRevenue: 88.21,
-            ga_users: 155,
-            ga_bounces: 113,
-            ga_sessions: 152,
-          },
-          "2": {
-            ga_transactions: 1,
-            ga_transactionRevenue: 137.61,
-            ga_users: 103,
-            ga_bounces: 83,
-            ga_sessions: 105,
-          },
-          "3": {
-            ga_transactions: 1,
-            ga_transactionRevenue: 37.85,
-            ga_users: 74,
-            ga_bounces: 50,
-            ga_sessions: 76,
-          },
-          "4": {
-            ga_transactions: 3,
-            ga_transactionRevenue: 128.83,
-            ga_users: 53,
-            ga_bounces: 33,
-            ga_sessions: 56,
-          },
-          "5": {
-            ga_transactions: 2,
-            ga_transactionRevenue: 170.4,
-            ga_users: 105,
-            ga_bounces: 80,
-            ga_sessions: 105,
-          },
-          "6": {
-            ga_transactions: 3,
-            ga_transactionRevenue: 252.46,
-            ga_users: 127,
-            ga_bounces: 87,
-            ga_sessions: 125,
-          },
-        },
-        id: "June 11, 2023",
-      },
-    ],
-    ltv: {
-      uniqueCustomerCount: 338,
-    },
-    totalInventoryItems: 858545,
-    totalInventoryItemsMissing: 1113195,
-    totalInventoryCost: 636140.65,
-    totalInventoryValue: -11826279.88,
-    newStats: {
-      "facebook-ads": [
-        {
-          hours: {
-            "0": {
-              spend: 163.38,
-              conversionValue: 105.99,
-              metaConversionValue: 0,
-              oneDayViewConversionValue: 0,
-              oneDayViewPurchasesValue: 0,
-              clicks: 101,
-              impressions: 5985,
-              outboundClicks: 40,
-              purchases: 1,
-              metaPurchases: 0,
-              totalVideoView: 2561,
-              threeSecondVideoView: 23,
-            },
-            "1": {
-              spend: 165.89999999999995,
-              conversionValue: 59.8,
-              metaConversionValue: 0,
-              oneDayViewConversionValue: 0,
-              oneDayViewPurchasesValue: 0,
-              clicks: 140,
-              impressions: 6522,
-              outboundClicks: 77,
-              purchases: 1,
-              metaPurchases: 0,
-              totalVideoView: 3600,
-              threeSecondVideoView: 31,
-            },
-            "2": {
-              spend: 142.35,
-              conversionValue: 111.14999999999999,
-              metaConversionValue: 0,
-              oneDayViewConversionValue: 0,
-              oneDayViewPurchasesValue: 0,
-              clicks: 114,
-              impressions: 5695,
-              outboundClicks: 69,
-              purchases: 2,
-              metaPurchases: 0,
-              totalVideoView: 3326,
-              threeSecondVideoView: 30,
-            },
-            "3": {
-              spend: 76.10999999999999,
-              conversionValue: 99.99,
-              metaConversionValue: 0,
-              oneDayViewConversionValue: 0,
-              oneDayViewPurchasesValue: 0,
-              clicks: 57,
-              impressions: 2661,
-              outboundClicks: 31,
-              purchases: 1,
-              metaPurchases: 0,
-              totalVideoView: 1636,
-              threeSecondVideoView: 16,
-            },
-            "4": {
-              spend: 61.890000000000015,
-              conversionValue: 29.989999999999995,
-              metaConversionValue: 0,
-              oneDayViewConversionValue: 0,
-              oneDayViewPurchasesValue: 0,
-              clicks: 45,
-              impressions: 2109,
-              outboundClicks: 18,
-              purchases: 1,
-              metaPurchases: 0,
-              totalVideoView: 1354,
-              threeSecondVideoView: 10,
-            },
-            "5": {
-              spend: 93.7,
-              conversionValue: 148.23,
-              metaConversionValue: 0,
-              oneDayViewConversionValue: 0,
-              oneDayViewPurchasesValue: 0,
-              clicks: 78,
-              impressions: 3361,
-              outboundClicks: 34,
-              purchases: 1,
-              metaPurchases: 0,
-              totalVideoView: 1794,
-              threeSecondVideoView: 8,
-            },
-            "6": {
-              spend: 145.76,
-              conversionValue: 0,
-              metaConversionValue: 0,
-              oneDayViewConversionValue: 0,
-              oneDayViewPurchasesValue: 0,
-              clicks: 135,
-              impressions: 5232,
-              outboundClicks: 53,
-              purchases: 0,
-              metaPurchases: 0,
-              totalVideoView: 3027,
-              threeSecondVideoView: 10,
-            },
-          },
-          start: "2023-06-11T00:00:00+00:00",
-          end: "2023-06-11T23:59:59+00:00",
-          id: "Jun 11, 2023",
-        },
-      ],
-      "google-ads": [
-        {
-          hours: {
-            "1": {
-              spend: 18.197717,
-              conversionValue: 0,
-              clicks: 16,
-              impressions: 3040,
-              purchases: 0,
-              allConversions: 0,
-              allConversionValue: 0,
-              threeSecondVideoView: 0,
-            },
-            "2": {
-              spend: 8.654917000000001,
-              conversionValue: 0,
-              clicks: 12,
-              impressions: 1305,
-              purchases: 0,
-              allConversions: 0,
-              allConversionValue: 0,
-              threeSecondVideoView: 0,
-            },
-            "3": {
-              spend: 28.58151,
-              conversionValue: 0,
-              clicks: 28,
-              impressions: 1011,
-              purchases: 0,
-              allConversions: 0,
-              allConversionValue: 0,
-              threeSecondVideoView: 0,
-            },
-            "4": {
-              spend: -13.118663999999999,
-              conversionValue: 0,
-              clicks: -14,
-              impressions: 468,
-              purchases: 0,
-              allConversions: 0,
-              allConversionValue: 0,
-              threeSecondVideoView: 0.16666666666666666,
-            },
-            "5": {
-              spend: 7.3968539999999985,
-              conversionValue: 0,
-              clicks: 7,
-              impressions: 617,
-              purchases: 0,
-              allConversions: 0,
-              allConversionValue: 0,
-              threeSecondVideoView: 0.11904761904761904,
-            },
-            "6": {
-              spend: 2.8944270000000003,
-              conversionValue: 0,
-              clicks: 3,
-              impressions: 494,
-              purchases: 0,
-              allConversions: 0,
-              allConversionValue: 0,
-              threeSecondVideoView: 0,
-            },
-          },
-          start: "2023-06-11T00:00:00+00:00",
-          end: "2023-06-11T23:59:59+00:00",
-          id: "Jun 11, 2023",
-        },
-      ],
-      "snapchat-ads": [],
-      klaviyo: [
-        {
-          hours: {
-            "0": {
-              unsubscribed: 0,
-              subscribedToList: 2,
-              openedEmail: 450,
-              receivedEmail: 107,
-              clickedSms: 0,
-              clickedEmail: 2,
-              conversionValue: 1668.95,
-              flowsConversionValue: 29.99,
-              flowsCount: 1,
-              campaignsConversionValue: 0,
-            },
-            "1": {
-              unsubscribed: 0,
-              subscribedToList: 1,
-              openedEmail: 428,
-              receivedEmail: 54,
-              clickedSms: 0,
-              clickedEmail: 2,
-              conversionValue: 88.21,
-              flowsConversionValue: 0,
-              flowsCount: 0,
-              campaignsConversionValue: 0,
-            },
-            "2": {
-              unsubscribed: 0,
-              subscribedToList: 0,
-              openedEmail: 362,
-              receivedEmail: 287,
-              clickedSms: 0,
-              clickedEmail: 4,
-              conversionValue: 137.61,
-              flowsConversionValue: 0,
-              flowsCount: 0,
-              campaignsConversionValue: 0,
-            },
-            "3": {
-              unsubscribed: 0,
-              subscribedToList: 0,
-              openedEmail: 334,
-              receivedEmail: 32,
-              clickedSms: 0,
-              clickedEmail: 1,
-              conversionValue: 0,
-              flowsConversionValue: 0,
-              flowsCount: 0,
-              campaignsConversionValue: 0,
-            },
-            "4": {
-              unsubscribed: 0,
-              subscribedToList: 1,
-              openedEmail: 295,
-              receivedEmail: 12,
-              clickedSms: 0,
-              clickedEmail: 4,
-              conversionValue: 166.68,
-              flowsConversionValue: 0,
-              flowsCount: 0,
-              campaignsConversionValue: 0,
-            },
-            "5": {
-              unsubscribed: 1,
-              subscribedToList: 1,
-              openedEmail: 270,
-              receivedEmail: 22,
-              clickedSms: 0,
-              clickedEmail: 0,
-              conversionValue: 170.4,
-              flowsConversionValue: 170.39999999999998,
-              flowsCount: 2,
-              campaignsConversionValue: 0,
-            },
-            "6": {
-              unsubscribed: 0,
-              subscribedToList: 1,
-              openedEmail: 238,
-              receivedEmail: 38,
-              clickedSms: 0,
-              clickedEmail: 0,
-              conversionValue: 207.48,
-              flowsConversionValue: 0,
-              flowsCount: 0,
-              campaignsConversionValue: 0,
-            },
-          },
-          start: "2023-06-11T00:00:00+00:00",
-          end: "2023-06-11T23:59:59+00:00",
-          id: "Jun 11, 2023",
-        },
-      ],
-      enquirelabs: [],
-      kno: [
-        {
-          hours: {
-            "0": {
-              "facebook-ads": {
-                responses: 2,
-                price: 212.5999984741211,
-              },
-              total: {
-                responses: 2,
-                price: 212.5999984741211,
-              },
-            },
-            "1": {
-              total: {
-                responses: 0,
-                price: 0,
-              },
-            },
-            "2": {
-              total: {
-                responses: 0,
-                price: 0,
-              },
-            },
-            "3": {
-              total: {
-                responses: 0,
-                price: 0,
-              },
-            },
-            "4": {
-              "instagram-ads": {
-                responses: 1,
-                price: 44.97999954223633,
-              },
-              "google-ads": {
-                responses: 1,
-                price: 37.849998474121094,
-              },
-              total: {
-                responses: 2,
-                price: 82.82999801635742,
-              },
-            },
-            "5": {
-              total: {
-                responses: 0,
-                price: 0,
-              },
-            },
-            "6": {
-              "facebook-ads": {
-                responses: 2,
-                price: 144.96999740600586,
-              },
-              total: {
-                responses: 2,
-                price: 144.96999740600586,
-              },
-            },
-          },
-          start: "2023-06-11T00:00:00+00:00",
-          end: "2023-06-11T23:59:59+00:00",
-          id: "Jun 11, 2023",
-        },
-      ],
-      "twitter-ads": [
-        {
-          hours: {
-            "0": {
-              spend: 0,
-              conversionValue: 0,
-              purchases: 0,
-              clicks: 0,
-              impressions: 0,
-              threeSecondVideoView: 0,
-              engagements: 0,
-              follows: 0,
-            },
-            "1": {
-              spend: 0,
-              conversionValue: 0,
-              purchases: 0,
-              clicks: 0,
-              impressions: 0,
-              threeSecondVideoView: 0,
-              engagements: 0,
-              follows: 0,
-            },
-            "2": {
-              spend: 0,
-              conversionValue: 0,
-              purchases: 0,
-              clicks: 0,
-              impressions: 0,
-              threeSecondVideoView: 0,
-              engagements: 0,
-              follows: 0,
-            },
-            "3": {
-              spend: 0,
-              conversionValue: 0,
-              purchases: 0,
-              clicks: 0,
-              impressions: 0,
-              threeSecondVideoView: 0,
-              engagements: 0,
-              follows: 0,
-            },
-            "4": {
-              spend: 0,
-              conversionValue: 0,
-              purchases: 0,
-              clicks: 0,
-              impressions: 0,
-              threeSecondVideoView: 0,
-              engagements: 0,
-              follows: 0,
-            },
-            "5": {
-              spend: 0,
-              conversionValue: 0,
-              purchases: 0,
-              clicks: 0,
-              impressions: 0,
-              threeSecondVideoView: 0,
-              engagements: 0,
-              follows: 0,
-            },
-            "6": {
-              spend: 0,
-              conversionValue: 0,
-              purchases: 0,
-              clicks: 0,
-              impressions: 0,
-              threeSecondVideoView: 0,
-              engagements: 0,
-              follows: 0,
-            },
-          },
-          start: "2023-06-11T00:00:00+00:00",
-          end: "2023-06-11T23:59:59+00:00",
-          id: "Jun 11, 2023",
-        },
-      ],
-      influencers: [
-        {
-          hours: {
-            "0": {
-              pixelConversionValue: 0,
-              spend: 0,
-              roas: null,
-            },
-            "1": {
-              pixelConversionValue: 28.40999984741211,
-              spend: 0,
-              pixelPurchases: 1,
-              pixelCogs: 0,
-              pixelProductCount: 1,
-              roas: null,
-              aov: 0,
-              cpa: 0,
-              cpc: 0,
-              cpm: 0,
-              ctr: 0,
-              outboundCtr: 0,
-              pixelRoas: 0,
-              pixelNcRoas: 0,
-              pixelCpa: 0,
-              pixelAov: 28.40999984741211,
-              pixelNcAov: 0,
-              pixelNcCpa: 0,
-              pixelProfit: 28.40999984741211,
-              pixelConversionRate: 0,
-              pixelNcConversionRate: 0,
-              pixelCostPerAtc: 0,
-              pixelCostPerEmailSignup: 0,
-              pixelCostPerNewVisitor: 0,
-              pixelCostPerVisitor: 0,
-              pixelEmailSignupRate: 0,
-              pixelAvgTimeOnSite: 0,
-              pixelBounceRate: 0,
-              pixelAvgTimeToConversion: 0,
-              pixelAvgTouchpoints: 0,
-              pixelNewVisitorPerc: 0,
-              pixelNcPurchasesPerc: 0,
-            },
-            "2": {
-              pixelConversionValue: 0,
-              spend: 0,
-              roas: null,
-            },
-            "3": {
-              pixelConversionValue: 0,
-              spend: 0,
-              roas: null,
-            },
-            "4": {
-              pixelConversionValue: 0,
-              spend: 0,
-              roas: null,
-            },
-            "5": {
-              pixelConversionValue: 0,
-              spend: 0,
-              roas: null,
-            },
-            "6": {
-              pixelConversionValue: 0,
-              spend: 0,
-              roas: null,
-            },
-          },
-          start: "2023-06-11T00:00:00+00:00",
-          end: "2023-06-11T23:59:59+00:00",
-          id: "Jun 11, 2023",
-        },
-      ],
-      shopify: [
-        {
-          hours: {
-            "0": {
-              total_tax: 77.38,
-              total_price: 1668.95,
-              avg_price: 55.63166666666667,
-              total_items: 50,
-              total_refund: 0,
-              total_cost: 223.29999999999998,
-              total_fees: 0,
-              total_handling_fees: 0,
-              total_shipping_costs: 240,
-              total_payment_gateway_costs: 18.59,
-              refund_count: 0,
-              count: 30,
-              new_customers_count: 3,
-              new_customers_total_price: 250.03,
-              new_customers_total_tax: 15.07,
-              net_sales: 1668.95,
-              total_percentage_cost: 9.5871,
-              total_payment_gateway_fees: 9,
-              total_discounts: 90,
-              total_shipping_price: 24.96,
-              orders_with_amount: 30,
-              new_customers_avg_price: 83.34333333333333,
-              new_customers_total_items: 6,
-              total_items_cogs: 50,
-              total_price_gross: 0,
-              tax_refund: 0,
-              discount_refund: 0,
-            },
-            "1": {
-              total_tax: 7,
-              total_price: 88.21,
-              avg_price: 44.105,
-              total_items: 3,
-              total_refund: 0,
-              total_cost: 10.82,
-              total_fees: 0,
-              total_handling_fees: 0,
-              total_shipping_costs: 16,
-              total_payment_gateway_costs: 3.2399999999999998,
-              refund_count: 0,
-              count: 2,
-              new_customers_count: 1,
-              new_customers_total_price: 59.8,
-              new_customers_total_tax: 4.83,
-              net_sales: 88.21,
-              total_percentage_cost: 2.6462999999999997,
-              total_payment_gateway_fees: 0.6,
-              total_discounts: 18.74,
-              total_shipping_price: 4.99,
-              orders_with_amount: 2,
-              new_customers_avg_price: 59.8,
-              new_customers_total_items: 2,
-              total_items_cogs: 3,
-              total_price_gross: 0,
-              tax_refund: 0,
-              discount_refund: 0,
-            },
-            "2": {
-              total_tax: 9.64,
-              total_price: 137.61,
-              avg_price: 137.61,
-              total_items: 4,
-              total_refund: 0,
-              total_cost: 15.92,
-              total_fees: 0,
-              total_handling_fees: 0,
-              total_shipping_costs: 8,
-              total_payment_gateway_costs: 7.18,
-              refund_count: 0,
-              count: 1,
-              new_customers_count: 1,
-              new_customers_total_price: 137.61,
-              new_customers_total_tax: 9.64,
-              net_sales: 137.61,
-              total_percentage_cost: 6.880500000000001,
-              total_payment_gateway_fees: 0.3,
-              total_discounts: 31.99,
-              total_shipping_price: 0,
-              orders_with_amount: 1,
-              new_customers_avg_price: 137.61,
-              new_customers_total_items: 4,
-              total_items_cogs: 4,
-              total_price_gross: 0,
-              tax_refund: 0,
-              discount_refund: 0,
-            },
-            "3": {
-              total_tax: 2.87,
-              total_price: 37.85,
-              avg_price: 37.85,
-              total_items: 1,
-              total_refund: 0,
-              total_cost: 4.77,
-              total_fees: 0,
-              total_handling_fees: 0,
-              total_shipping_costs: 8,
-              total_payment_gateway_costs: 1.44,
-              refund_count: 0,
-              count: 1,
-              new_customers_count: 1,
-              new_customers_total_price: 37.85,
-              new_customers_total_tax: 2.87,
-              net_sales: 37.85,
-              total_percentage_cost: 1.1355,
-              total_payment_gateway_fees: 0.3,
-              total_discounts: 0,
-              total_shipping_price: 4.99,
-              orders_with_amount: 1,
-              new_customers_avg_price: 37.85,
-              new_customers_total_items: 1,
-              total_items_cogs: 1,
-              total_price_gross: 0,
-              tax_refund: 0,
-              discount_refund: 0,
-            },
-            "4": {
-              total_tax: 3.4,
-              total_price: 128.82999999999998,
-              avg_price: 42.94333333333333,
-              total_items: 10,
-              total_refund: 0,
-              total_cost: 20.36,
-              total_fees: 0,
-              total_handling_fees: 0,
-              total_shipping_costs: 24,
-              total_payment_gateway_costs: 2.8200000000000003,
-              refund_count: 0,
-              count: 3,
-              new_customers_count: 1,
-              new_customers_total_price: 44.98,
-              new_customers_total_tax: 0,
-              net_sales: 128.82999999999998,
-              total_percentage_cost: 1.9190000000000003,
-              total_payment_gateway_fees: 0.8999999999999999,
-              total_discounts: 110.97,
-              total_shipping_price: 29.96,
-              orders_with_amount: 3,
-              new_customers_avg_price: 44.98,
-              new_customers_total_items: 1,
-              total_items_cogs: 10,
-              total_price_gross: 0,
-              tax_refund: 0,
-              discount_refund: 0,
-            },
-            "5": {
-              total_tax: 14.01,
-              total_price: 170.39999999999998,
-              avg_price: 85.19999999999999,
-              total_items: 3,
-              total_refund: 0,
-              total_cost: 45,
-              total_fees: 0,
-              total_handling_fees: 0,
-              total_shipping_costs: 16,
-              total_payment_gateway_costs: 0.6,
-              refund_count: 0,
-              count: 2,
-              new_customers_count: 1,
-              new_customers_total_price: 148.23,
-              new_customers_total_tax: 12.24,
-              net_sales: 170.39999999999998,
-              total_percentage_cost: 0,
-              total_payment_gateway_fees: 0.6,
-              total_discounts: 39.08,
-              total_shipping_price: 0,
-              orders_with_amount: 2,
-              new_customers_avg_price: 148.23,
-              new_customers_total_items: 2,
-              total_items_cogs: 3,
-              total_price_gross: 0,
-              tax_refund: 0,
-              discount_refund: 0,
-            },
-            "6": {
-              total_tax: 7.5,
-              total_price: 252.45999999999998,
-              avg_price: 84.15333333333332,
-              total_items: 8,
-              total_refund: 0,
-              total_cost: 50.74,
-              total_fees: 0,
-              total_handling_fees: 0,
-              total_shipping_costs: 24,
-              total_payment_gateway_costs: 3.15,
-              refund_count: 0,
-              count: 3,
-              new_customers_count: 3,
-              new_customers_total_price: 252.45999999999998,
-              new_customers_total_tax: 7.5,
-              net_sales: 252.45999999999998,
-              total_percentage_cost: 2.249,
-              total_payment_gateway_fees: 0.8999999999999999,
-              total_discounts: 124.95,
-              total_shipping_price: 4.99,
-              orders_with_amount: 3,
-              new_customers_avg_price: 84.15333333333332,
-              new_customers_total_items: 8,
-              total_items_cogs: 8,
-              total_price_gross: 0,
-              tax_refund: 0,
-              discount_refund: 0,
-            },
-          },
-          start: "2023-06-11T00:00:00+00:00",
-          end: "2023-06-11T23:59:59+00:00",
-          id: "Jun 11, 2023",
-        },
-      ],
-    },
-    handlingFees: 0,
-    productCosts: 370.90999999999997,
-    customSpends: [
-      {
-        end_date: 1632974400000,
-        cost: "200000",
-        recurring: false,
-        title: "Overhead",
-        start_date: 1630468800000,
-        id: "zW5NVls4aav3MZoLes6A",
-      },
-      {
-        end_date: 1635652800000,
-        title: "SMS (Postscript)",
-        percent: 1.5,
-        metricId: "sales",
-        start_date: 1633060800000,
-        id: "62J44xaXZvVZK2YyDFrz",
-      },
-      {
-        end_date: 1635652800000,
-        cost: "175000",
-        recurring: true,
-        title: "Overhead",
-        start_date: 1633060800000,
-        id: "N66jpOhBHM30Ls3FWXKP",
-      },
-      {
-        end_date: 1638248400000,
-        cost: "125000",
-        recurring: true,
-        isAdSpend: false,
-        title: "Overhead",
-        start_date: 1635739200000,
-        id: "j5hEv8RtkNflz6CFzhcO",
-      },
-      {
-        end_date: 1638248400000,
-        isAdSpend: true,
-        title: "Postscript",
-        percent: 1.5,
-        metricId: "sales",
-        start_date: 1635739200000,
-        id: "xpOXPkckZS5cmDArKXY7",
-      },
-      {
-        end_date: 1640926800000,
-        cost: "155000",
-        recurring: true,
-        isAdSpend: false,
-        title: "Overhead",
-        start_date: 1638334800000,
-        id: "Uz3TjwsrEQEEq5ZwIAWR",
-      },
-      {
-        end_date: 1640926800000,
-        cost: "15000",
-        recurring: true,
-        isAdSpend: false,
-        title: "Buffer",
-        start_date: 1638334800000,
-        id: "WocqQVol4lTo8mcSVSx9",
-      },
-      {
-        end_date: 1640926800000,
-        isAdSpend: false,
-        title: "Postscript",
-        percent: 1.5,
-        metricId: "sales",
-        start_date: 1638334800000,
-        id: "pw13Yk8pE9QXQz6PdTOd",
-      },
-      {
-        end_date: 1643605200000,
-        cost: "15000",
-        recurring: true,
-        isAdSpend: false,
-        title: "Buffer",
-        start_date: 1641013200000,
-        id: "m5WlnqGNLRsmFYKw1pTU",
-      },
-      {
-        end_date: 1643605200000,
-        isAdSpend: true,
-        title: "Postscript",
-        percent: 1.5,
-        metricId: "sales",
-        start_date: 1641013200000,
-        id: "xEIpeYRrDpcCSy1aqMkf",
-      },
-      {
-        end_date: 1643605200000,
-        cost: "140000",
-        recurring: true,
-        isAdSpend: false,
-        title: "Overhead",
-        start_date: 1641013200000,
-        id: "yCS9mzapfUGiGrV1yZ7w",
-      },
-    ],
-    mainDatePickerSelectionRange: {
-      start: "2023-06-11T04:00:00.000Z",
-      end: "2023-06-12T03:59:59.000Z",
-    },
-    shippingCosts: [
-      {
-        country_code: "US",
-        shipping_cost: 8,
-        id: "m9yIElOPE0MaFKMoItqD",
-      },
-    ],
-    paymentGatewayCosts: [
-      {
-        name: "Afterpay",
-        id: "Afterpay",
-        cost: 5,
-        fee: 0.3,
-      },
-      {
-        name: "Authorize",
-        id: "Authorize",
-      },
-      {
-        name: "Authorize.Net Cim",
-        id: "Authorize.Net Cim",
-        cost: 0.1,
-      },
-      {
-        name: "Braintree",
-        id: "Braintree",
-        cost: 3,
-        fee: 0.3,
-      },
-      {
-        name: "Klickly",
-        id: "Klickly",
-      },
-      {
-        name: "PayPal Checkout",
-        id: "PayPal Checkout",
-      },
-      {
-        name: "Sezzle Payments",
-        id: "Sezzle Payments",
-      },
-      {
-        name: "afterpay_north_america",
-        id: "afterpay_north_america",
-        cost: 5,
-      },
-      {
-        name: "amazon_payments",
-        id: "amazon_payments",
-        cost: 3,
-      },
-      {
-        name: "authorize_ch",
-        id: "authorize_ch",
-        cost: 3,
-      },
-      {
-        name: "authorize_net",
-        id: "authorize_net",
-        cost: 3,
-      },
-      {
-        name: "braintree",
-        id: "braintree",
-      },
-      {
-        name: "carro_stripe",
-        id: "carro_stripe",
-      },
-      {
-        name: "gift_card",
-        id: "gift_card",
-        cost: 3,
-      },
-      {
-        name: "manual",
-        id: "manual",
-        cost: 3,
-      },
-      {
-        name: "paypal",
-        id: "paypal",
-        cost: 3,
-      },
-      {
-        name: "sezzle",
-        id: "sezzle",
-        cost: 6,
-        fee: 0.3,
-      },
-      {
-        name: "shop_cash",
-        id: "shop_cash",
-      },
-      {
-        name: "shopify_installments",
-        id: "shopify_installments",
-      },
-      {
-        name: "shopify_payments",
-        id: "shopify_payments",
-      },
-    ],
-    customMetrics: {
-      metrics: [
-        {
-          metricType: "number",
-          stat: [
-            {
-              type: "stat",
-              value: "netSales",
-              chart: "netSalesChart",
-            },
-            {
-              type: "operator",
-              value: "/",
-            },
-            {
-              type: "stat",
-              value: "blendedAds",
-              chart: "chartBlendedAds",
-            },
-          ],
-          description: "",
-          section: "pinned",
-          title: "net sales/ total ads spend",
-          createdAt: {
-            _seconds: 1661942721,
-            _nanoseconds: 899000000,
-          },
-          id: "6L38bwHBRvWKGMklbEpT",
-        },
-        {
-          metricType: "$",
-          stat: [
-            {
-              type: "nestedStat",
-              chart: "customMetricsCharts",
-              value: "customMetrics",
-              statObjectKey: "XDlpY3ObEXkBNtESCGTZ",
-            },
-            {
-              type: "operator",
-              value: "+",
-            },
-            {
-              type: "nestedStat",
-              value: "customMetrics",
-              chart: "customMetricsCharts",
-              statObjectKey: "uauOrxRIDEQBBJJkFHrW",
-            },
-          ],
-          description: "",
-          section: "Kc2Z1TwdXg5GX3LTThg8",
-          title: "Shipping CPO + COGS PO",
-          createdAt: {
-            _seconds: 1659359291,
-            _nanoseconds: 338000000,
-          },
-          id: "I41lKG4ACkBr3f3ST4N2",
-        },
-        {
-          metricType: "$",
-          stat: [
-            {
-              type: "nestedStat",
-              chart: "customMetricsCharts",
-              value: "customMetrics",
-              statObjectKey: "I41lKG4ACkBr3f3ST4N2",
-            },
-            {
-              type: "operator",
-              value: "+",
-            },
-            {
-              type: "stat",
-              chart: "chartNewCustomersCpa",
-              value: "newCustomersCpa",
-            },
-          ],
-          description: "",
-          section: "Kc2Z1TwdXg5GX3LTThg8",
-          title: "Variable Expenses per New Order",
-          createdAt: {
-            _seconds: 1659359411,
-            _nanoseconds: 627000000,
-          },
-          id: "OPRT7ak1z1YyzrgPSWWx",
-        },
-        {
-          metricType: "$",
-          stat: [
-            {
-              type: "nestedStat",
-              chart: "customMetricsCharts",
-              value: "customMetrics",
-              statObjectKey: "I41lKG4ACkBr3f3ST4N2",
-            },
-            {
-              type: "operator",
-              value: "+",
-            },
-            {
-              type: "stat",
-              chart: "chartShopifyCpa",
-              value: "shopifyCpa",
-            },
-          ],
-          description: "",
-          section: "Kc2Z1TwdXg5GX3LTThg8",
-          title: "Variable Expenses per Order",
-          createdAt: {
-            _seconds: 1659359325,
-            _nanoseconds: 647000000,
-          },
-          id: "QhG75Cv0JLXxCZIkW3SM",
-        },
-        {
-          metricType: "$",
-          stat: [
-            {
-              type: "stat",
-              value: "shopifyAov",
-              chart: "chartShopifyAov",
-            },
-            {
-              type: "operator",
-              value: "-",
-            },
-            {
-              type: "nestedStat",
-              value: "customMetrics",
-              chart: "customMetricsCharts",
-              statObjectKey: "QhG75Cv0JLXxCZIkW3SM",
-            },
-          ],
-          description: "",
-          section: "Kc2Z1TwdXg5GX3LTThg8",
-          title: "Cont. Margin per Order",
-          createdAt: {
-            _seconds: 1659359358,
-            _nanoseconds: 937000000,
-          },
-          id: "X7ANuQQK846E0PqFxxFe",
-        },
-        {
-          metricType: "$",
-          stat: [
-            {
-              type: "stat",
-              value: "totalProductCosts",
-            },
-            {
-              type: "operator",
-              value: "/",
-            },
-            {
-              type: "stat",
-              value: "totalOrders",
-              chart: "chartOrders",
-            },
-          ],
-          description: "",
-          section: "Kc2Z1TwdXg5GX3LTThg8",
-          title: "COGS per order",
-          createdAt: {
-            _seconds: 1659359213,
-            _nanoseconds: 291000000,
-          },
-          id: "XDlpY3ObEXkBNtESCGTZ",
-        },
-        {
-          metricType: "$",
-          expression: "field_80#+field_23#",
-          stats: {
-            "field_23#": {
-              type: "stat",
-              value: "totalReturns",
-              chart: "totalReturnsChart",
-            },
-            "field_80#": {
-              type: "stat",
-              value: "blendedAds",
-              chart: "chartBlendedAds",
-            },
-          },
-          description: "try 1 desc",
-          title: "Try 1",
-          createdAt: {
-            _seconds: 1683559393,
-            _nanoseconds: 941000000,
-          },
-          id: "j9lMsp6olUZohex2yXKt",
-        },
-        {
-          metricType: "$",
-          stat: [
-            {
-              type: "stat",
-              value: "shopifyAov",
-              chart: "chartShopifyAov",
-            },
-            {
-              type: "operator",
-              value: "-",
-            },
-            {
-              type: "nestedStat",
-              chart: "customMetricsCharts",
-              value: "customMetrics",
-              statObjectKey: "OPRT7ak1z1YyzrgPSWWx",
-            },
-          ],
-          description: "",
-          section: "Kc2Z1TwdXg5GX3LTThg8",
-          title: "Contr. Margin per New Order",
-          createdAt: {
-            _seconds: 1659359435,
-            _nanoseconds: 780000000,
-          },
-          id: "nmNtVOCg6TvqSGhrUoOi",
-        },
-        {
-          metricType: "$",
-          stat: [
-            {
-              type: "stat",
-              value: "newCustomersRoas",
-            },
-            {
-              type: "operator",
-              value: "*",
-            },
-            {
-              type: "stat",
-              chart: "chartNewCustomersCpa",
-              value: "newCustomersCpa",
-            },
-          ],
-          description: "",
-          section: "pinned",
-          title: "New Customer AOV",
-          createdAt: {
-            _seconds: 1669130025,
-            _nanoseconds: 194000000,
-          },
-          id: "ttwm1nDHQ4iluWhgah0m",
-        },
-        {
-          stat: [
-            {
-              type: "stat",
-              chart: "chartSales",
-              value: "totalSales",
-            },
-            {
-              type: "operator",
-              value: "/",
-            },
-            {
-              type: "stat",
-              chart: "chartOrders",
-              value: "totalOrders",
-            },
-          ],
-          description: "",
-          section: "pinned",
-          title: "AOV By Hour",
-          metricType: "$",
-          createdAt: {
-            _seconds: 1638225961,
-            _nanoseconds: 63000000,
-          },
-          id: "uBcU247PLBecmLdSUV4w",
-        },
-        {
-          metricType: "$",
-          stat: [
-            {
-              type: "stat",
-              value: "totalShippingCosts",
-              chart: "totalShippingCostsChart",
-            },
-            {
-              type: "operator",
-              value: "/",
-            },
-            {
-              type: "stat",
-              chart: "chartOrders",
-              value: "totalOrders",
-            },
-          ],
-          description: "",
-          section: "Kc2Z1TwdXg5GX3LTThg8",
-          title: "Shipping Cost per Order",
-          createdAt: {
-            _seconds: 1659359242,
-            _nanoseconds: 273000000,
-          },
-          id: "uauOrxRIDEQBBJJkFHrW",
-        },
-      ],
-    },
-    shopTimezone: "America/New_York",
-    shopifyUseMongoCogs: false,
-    finance: {
-      accounts: {
-        "86": {
-          ins_name: "",
-          nickName: "Chase Bank x2159 (deleted)",
-          type: "depository",
-          provider: "codat",
-        },
-        "87": {
-          ins_name: "",
-          nickName: "Amex Plum x11002",
-          type: "credit",
-          provider: "codat",
-        },
-        "88": {
-          ins_name: "",
-          nickName: "Amex Gold x01004",
-          type: "credit",
-          provider: "codat",
-        },
-        "89": {
-          ins_name: "",
-          nickName: "Chase Ink x4905",
-          type: "credit",
-          provider: "codat",
-        },
-        "91": {
-          ins_name: "",
-          nickName: "New Era Media CC",
-          type: "credit",
-          provider: "codat",
-        },
-        "126": {
-          ins_name: "",
-          nickName: "PayPal x7778",
-          type: "depository",
-          provider: "codat",
-        },
-        "129": {
-          ins_name: "",
-          nickName: "Undeposited Funds",
-          type: "credit",
-          provider: "codat",
-        },
-        "139": {
-          ins_name: "",
-          nickName: "Chase Ink x4010",
-          type: "credit",
-          provider: "codat",
-        },
-        "143": {
-          ins_name: "",
-          nickName: "Amex Platinum x51003",
-          type: "credit",
-          provider: "codat",
-        },
-        "174": {
-          ins_name: "",
-          nickName: "Bill.com Money Out Clearing",
-          type: "depository",
-          provider: "codat",
-        },
-        "175": {
-          ins_name: "",
-          nickName: "Bill.com Money In Clearing",
-          type: "depository",
-          provider: "codat",
-        },
-        "186": {
-          ins_name: "",
-          nickName: "Settle Clearing Out",
-          type: "depository",
-          provider: "codat",
-        },
-        "187": {
-          ins_name: "",
-          nickName: "RHO Checking 4785",
-          type: "depository",
-          provider: "codat",
-        },
-        "188": {
-          ins_name: "",
-          nickName: "Rho Card #0672",
-          type: "credit",
-          provider: "codat",
-        },
-        "194": {
-          ins_name: "",
-          nickName: "Chase Savings x6229",
-          type: "depository",
-          provider: "codat",
-        },
-        "195": {
-          ins_name: "",
-          nickName: "Chase Operating x2159",
-          type: "depository",
-          provider: "codat",
-        },
-        "196": {
-          ins_name: "",
-          nickName: "Chase Large Ops x0393",
-          type: "depository",
-          provider: "codat",
-        },
-        "206": {
-          ins_name: "",
-          nickName: "Divvy Corporate Card",
-          type: "credit",
-          provider: "codat",
-        },
-        "294": {
-          ins_name: "",
-          nickName: "Parker Card",
-          type: "credit",
-          provider: "codat",
-        },
-        "335": {
-          ins_name: "",
-          nickName: "Brex Credit Card",
-          type: "credit",
-          provider: "codat",
-        },
-        "337": {
-          ins_name: "",
-          nickName: "Ramp Card",
-          type: "credit",
-          provider: "codat",
-        },
-        "341": {
-          ins_name: "",
-          nickName: "Mercury Checking x8349",
-          type: "depository",
-          provider: "codat",
-        },
-        "370": {
-          ins_name: "",
-          nickName: "Ramp-Flex.",
-          type: "credit",
-          provider: "codat",
-        },
-        peE96da3akt1qvVm95jEhXN3egYzexU4nEy3e: {
-          ins_name: "Chase",
-          nickName: "Payroll Large Ops",
-          type: "depository",
-          provider: "plaid",
-          balances: [],
-        },
-        QV6naQxExzhLPK50X71Bu87J9yMn9mU4eYLO5: {
-          ins_name: "Chase",
-          nickName: "Operating",
-          type: "depository",
-          provider: "plaid",
-          balances: [],
-        },
-        neOgdD919ytLzk5RxdKbux3BynLbyvtpJR3B8: {
-          ins_name: "Chase",
-          nickName: "R. SHAH",
-          type: "credit",
-          provider: "plaid",
-          balances: [],
-        },
-        XO316MwDwzSyReA5mOX8TYK6ypxDyVsakAxd4: {
-          ins_name: "Chase",
-          nickName: "Savings",
-          type: "depository",
-          provider: "plaid",
-          balances: [],
-        },
-      },
-      codatTableRows: [],
-      plaidTableRows: {
-        creditRows: [],
-        debitRows: [],
-      },
-      valuationCalculator: {
-        valuation: "ebitdaValuation",
-        calculator: 5,
-      },
-    },
-  },
 }
