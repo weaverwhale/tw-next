@@ -1,7 +1,8 @@
 import { expect, test } from "@playwright/test"
 
-test("has title", async ({ page }) => {
+test("has header", async ({ page }) => {
   await page.goto("./")
 
-  await expect(page).toHaveTitle(/Next.js Enterprise Boilerplate/)
+  const locator = page.locator("header")
+  await expect(locator).toHaveCount(1)
 })
