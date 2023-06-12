@@ -4,6 +4,8 @@ import { SparkChart } from "components/Charts"
 import { SourceIcons } from "components/SourceIcons"
 import { DictatedData, formattedDictatedService, IServiceMap, ServiceMap } from "../types/Types"
 
+const timeToDelay = 3000
+
 // @ts-ignore
 const groupByKey = (list, key) =>
   list.reduce(
@@ -57,7 +59,7 @@ export default function Summary() {
   useEffect(() => {
     async function fetchData() {
       // contrive a delay to show loading state
-      await timeout(3000)
+      await timeout(timeToDelay)
       // get data from api
       const d = await fetch("/api/summary").then((res) => res.json())
       // @ts-ignore
@@ -72,7 +74,7 @@ export default function Summary() {
       <h1 className="text-3xl font-bold">Summary</h1>
 
       {Object.keys(dictatedData).length <= 0 ? (
-        <p className="mt-10">loading...</p>
+        <p className="mt-10">loading... (waiting {timeToDelay / 1000}s for dramatic effect)</p>
       ) : (
         Object.keys(dictatedData).map((g: string) => {
           const group = dictatedData[g as IServiceMap] as DictatedData[IServiceMap]
