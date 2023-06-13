@@ -42,7 +42,8 @@ export default class ErrorBoundary extends React.Component {
             >
               <p style={{ fontWeight: "bold", fontSize: "50px" }}>Something went wrong!</p>
               <p style={{ color: "#1A5378", textAlign: "center", lineHeight: "normal" }}>
-                That's not supposed to happen. We've alerted our engineers about this. Please log in and try again.
+                That&#39;s not supposed to happen. We&#39;ve alerted our engineers about this. Please log in and try
+                again.
               </p>
               <div className="flex flex-row items-center gap-4">
                 <LoginButton />

@@ -33,7 +33,7 @@ export default function GlobalHeader() {
   const router = useRouter()
 
   return (
-    <header className="bg-nav sticky top-0 flex text-white sm:flex-col sm:items-start">
+    <header className="sticky top-0 flex bg-nav text-white sm:flex-col sm:items-start">
       {navItems.map((navItem) =>
         navItem.href === "/home" ? (
           <a
