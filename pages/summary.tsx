@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react"
 import RenderIfVisible from "react-render-if-visible"
 import { SparkChart } from "components/Charts"
-import { SourceIcons } from "components/SourceIcons"
+import SourceIcons from "components/SourceIcons"
+import Spinner from "components/Spinner"
 import { DictatedData, formattedDictatedService, IServiceMap, ServiceMap } from "../types/Types"
 
 // time to delay (simulate loading data from api)
@@ -75,7 +76,10 @@ export default function Summary() {
       <h1 className="text-3xl font-bold">Summary</h1>
 
       {Object.keys(dictatedData).length <= 0 ? (
-        <p className="mt-10">loading... (waiting {timeToDelay / 1000}s for dramatic effect)</p>
+        <div className="mt-10">
+          <Spinner />
+          <p className="mt-4">loading... (waiting {timeToDelay / 1000}s for dramatic effect)</p>
+        </div>
       ) : (
         Object.keys(dictatedData).map((g: string) => {
           const group = dictatedData[g as IServiceMap] as DictatedData[IServiceMap]

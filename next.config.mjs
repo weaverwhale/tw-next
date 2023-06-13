@@ -17,6 +17,15 @@ const config = withPlugins([[withBundleAnalyzer({ enabled: env.ANALYZE })]], {
       { source: "/summary", destination: "/api/summary" },
     ]
   },
+  async redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/summary",
+        permanent: true,
+      },
+    ]
+  },
 })
 
 export default config
