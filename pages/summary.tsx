@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import RenderIfVisible from "react-render-if-visible"
 import { SparkChart } from "components/Charts"
 import SourceIcons from "components/SourceIcons"
-import Spinner from "components/Spinner"
 import { DictatedData, formattedDictatedService, IServiceMap, ServiceMap } from "../types/Types"
 
 // time to delay (simulate loading data from api)
