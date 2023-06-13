@@ -12,7 +12,7 @@ export default function GlobalLayout({ children }) {
   const storeName = "madisonbraids"
 
   return (
-    <div className="bg-blue-700">
+    <div className="bg-nav">
       <GlobalHead />
       <div className="h-full w-full sm:flex sm:overflow-hidden">
         <GlobalHeader />
