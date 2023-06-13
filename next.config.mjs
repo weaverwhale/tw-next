@@ -26,6 +26,15 @@ const config = withPlugins([[withBundleAnalyzer({ enabled: env.ANALYZE })]], {
       },
     ]
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "*",
+        port: "",
+      },
+    ],
+  },
 })
 
 export default config

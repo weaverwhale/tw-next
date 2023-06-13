@@ -1,8 +1,8 @@
 import { GiSpermWhale } from "react-icons/gi"
 
-export default function Index() {
+export default function Home() {
   return (
-    <div className="flex h-full flex-col items-center justify-center p-4">
+    <div className="flex h-full flex-col items-center justify-center p-4 text-center">
       <div className="flex flex-wrap">
         {Array.from({ length: 3 }).map((_, i) => (
           <GiSpermWhale color="#000" size={130} key={i} />

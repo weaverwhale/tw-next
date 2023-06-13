@@ -11,7 +11,7 @@ export default function GlobalHead() {
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta name="twitter:card" content="summary_large_image" />
-      <title>Next.js Summary Page Demo</title>
+      <title>TW Next.js Demo</title>
     </Head>
   )
 }

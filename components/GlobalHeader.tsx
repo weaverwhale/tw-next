@@ -19,6 +19,14 @@ const navItems = [
     label: "About",
     href: "/about",
   },
+  {
+    label: "Third Party",
+    href: "/pokemon",
+  },
+  {
+    label: "404",
+    href: "/404",
+  },
 ]
 
 export default function GlobalHeader() {
@@ -41,7 +49,7 @@ export default function GlobalHeader() {
           <a
             key={navItem.label}
             href={navItem.href}
-            className={twMerge(headerButton(), router.pathname === navItem.href && "underline")}
+            className={twMerge(headerButton(), router.pathname === navItem.href && "underline", "whitespace-nowrap")}
           >
             {navItem.label}
           </a>

@@ -77,8 +77,21 @@ export default function Summary() {
 
       {Object.keys(dictatedData).length <= 0 ? (
         <div className="mt-10">
-          <Spinner />
           <p className="mt-4">loading... (waiting {timeToDelay / 1000}s for dramatic effect)</p>
+          {Array.from({ length: 3 }).map((_, i) => (
+            <div key={i}>
+              <div>
+                <h3 className="mb-4 flex items-center gap-2 text-xl capitalize">&nbsp;</h3>
+              </div>
+              <div className="grid w-full flex-wrap items-stretch gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                {Array.from({ length: 8 }).map((_, j) => (
+                  <>
+                    <div key={j} className="min-h-[230px] w-full rounded border p-4 shadow-md"></div>
+                  </>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       ) : (
         Object.keys(dictatedData).map((g: string) => {
